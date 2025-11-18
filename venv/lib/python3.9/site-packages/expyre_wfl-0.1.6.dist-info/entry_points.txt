@@ -1,0 +1,2 @@
+[console_scripts]
+xpr = expyre.cli.cli:cli

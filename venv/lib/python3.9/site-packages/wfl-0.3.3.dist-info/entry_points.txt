@@ -1,0 +1,5 @@
+[console_scripts]
+dft_convergence_test = wfl.cli.dft_convergence_test:cli
+gap_rss_iter_fit = wfl.cli.gap_rss_iter_fit:cli
+reactions_iter_fit = wfl.cli.reactions_iter_fit:cli
+wfl = wfl.cli.cli:cli
