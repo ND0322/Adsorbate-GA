@@ -1,0 +1,6 @@
+[console_scripts]
+gap_fit = quippy.cli:gap_fit
+md = quippy.cli:md
+quip = quippy.cli:quip
+quip-config = quippy.cli:quip_config
+vasp_driver = quippy.cli:vasp_driver

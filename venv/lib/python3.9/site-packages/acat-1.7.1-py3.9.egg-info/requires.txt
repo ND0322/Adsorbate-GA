@@ -1,0 +1,2 @@
+ase
+networkx>=2.4

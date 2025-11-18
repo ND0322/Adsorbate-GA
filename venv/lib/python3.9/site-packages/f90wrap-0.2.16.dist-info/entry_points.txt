@@ -1,0 +1,5 @@
+[console_scripts]
+f90doc = f90wrap.scripts.f90doc:main
+f90wrap = f90wrap.scripts.main:main
+f2py-f90wrap = f90wrap.scripts.f2py_f90wrap:main
+
