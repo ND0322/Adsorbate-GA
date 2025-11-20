@@ -193,7 +193,7 @@ species = ["H", "H2","CO", "CO2"]
 sas = ClusterAdsorptionSites(particle, composition_effect=False)
 
 # Instantiate the db
-db_name = 'ridge_Ni110Pt37_ads.db'
+db_name = os.path.abspath('ridge_Ni110Pt37_ads.db')
 
 # Connect to the db
 db = DataConnection(db_name)
@@ -242,8 +242,7 @@ cc = GenerationRepetitionConvergence(pop, 5)
 # Calculate chemical potentials
 chem_pots = {'CH4': -24.039, 'H2O': -14.169, 'H2': -6.989}
 
-
-traj = Trajectory("atoms.traj", 'w')
+traj = Trajectory(os.path.abspath("atoms.traj"), 'w')
 if __name__ == '__main__':
 
     pool = Pool(os.cpu_count())
@@ -268,11 +267,13 @@ if __name__ == '__main__':
     f_gm = [f_gen1]
     atoms_gm = [atoms_gen1]
 
-    with open("fitness.txt", "w") as file:
+   
+
+    with open( os.path.abspath("fitness.txt", "w"))as file:
         file.write(str(f_gen1) + "\n")
 
     traj.write(atoms_gen1)
-    write("atoms.xyz", atoms_gen1, append=True)
+    #write("atoms.xyz", atoms_gen1, append=True)
 
 
     db.add_more_relaxed_candidates(relaxed_candidates)
@@ -308,11 +309,11 @@ if __name__ == '__main__':
         f_gm.append(f_gen)
         atoms_gm.append(atoms_gen)
 
-        with open("fitness.txt", "a") as file:
+        with open( os.path.abspath("fitness.txt", "a")) as file:
             file.write(str(f_gen) + "\n")
 
         traj.write(atoms_gen)
-        write("atoms.xyz", atoms_gen, append=True)
+        #write("atoms.xyz", atoms_gen, append=True)
 
 
         #x = list(range(gen_num + i + 2 - len(f_gm), gen_num + i + 2))
@@ -353,6 +354,6 @@ On surface of periodic system or particles
 
 ase gui ridge_Ni110Pt37_ads.db
 czMHrca-UELC
-
+nohup conda run -n venv python3 ~/Adsorbate-GA/testing.py & 
 """
 

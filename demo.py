@@ -52,6 +52,13 @@ import matplotlib.pyplot as plt
 import math
 
 
+class FastNNMatComparator(NNMatComparator):
+    def _get_nnmat(self, atoms):
+        # Use stored nnmat if available
+        if 'data' in atoms.info and 'nnmat' in atoms.info['data']:
+            return atoms.info['data']['nnmat']
+        return super()._get_nnmat(atoms)
+
 
 
 def get_ads(atoms):
@@ -195,12 +202,12 @@ op_selector = OperationSelector(*soclist)
 
 # Define comparators
 comp = SequentialComparator([StringComparator('potential_energy'),
-                             NNMatComparator(0.2, ['Ni', 'Pt'])],
+                             FastNNMatComparator(0.2, ['Ni', 'Pt'])],
                             [0.5, 0.5])
 
 
 
-# Give fittest candidates at different coverages equal fitness.
+# Give fittest candidates at different Coverages equal fitness.
 # Use this to find global minimum at each adsorbate coverage
 pop = RankFitnessPopulation(data_connection=db,
                             population_size=pop_size,
@@ -255,7 +262,10 @@ if __name__ == '__main__':
 
 
     db.add_more_relaxed_candidates(relaxed_candidates)
-    pop.update()
+    
+    start = time.time()
+    pop.update(relaxed_candidates)
+    print("pop.update took:", time.time() - start, "seconds")
 
     # Number of generations
     num_gens = 1000
@@ -303,7 +313,11 @@ if __name__ == '__main__':
         #plt.show()
         db.add_more_relaxed_candidates(relaxed_candidates)
 
-        pop.update()
+        print("done db")
+
+        start = time.time()
+        pop.update(relaxed_candidates)
+        print("pop.update took:", time.time() - start, "seconds")
 
 
         """
