@@ -43,7 +43,8 @@ rog.run(num_gen=pop_size)
 
 # Generate random coverage on each nanoparticle
 
-species = ['H', 'H2', 'CO', 'CO2']
+#species = ['H', 'H2', 'CO', 'CO2']
+species = ['H', 'C', 'O', 'OH', 'CO', 'CH', 'CH2', 'CH3']
 
 
 
