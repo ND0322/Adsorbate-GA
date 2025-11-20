@@ -43,8 +43,8 @@ rog.run(num_gen=pop_size)
 
 # Generate random coverage on each nanoparticle
 
-#species = ['H', 'H2', 'CO', 'CO2']
-species = ['H', 'C', 'O', 'OH', 'CO', 'CH', 'CH2', 'CH3']
+species = ['H', 'H2', 'CO', 'CO2']
+#species = ['H', 'C', 'O', 'OH', 'CO', 'CH', 'CH2', 'CH3']
 
 
 
@@ -60,7 +60,7 @@ for atoms in images:
 sas = ClusterAdsorptionSites(particle, composition_effect=False)
 
 # Instantiate the db
-db_name = 'ridge_Ni110Pt37_ads.db'
+db_name = os.path.abspath('ridge_Ni110Pt37_ads.db')
 
 db = PrepareDB(db_name, cell=particle.cell, population_size=pop_size)
 
@@ -70,3 +70,4 @@ for atoms in patterns:
     #view(atoms)
     db.add_unrelaxed_candidate(atoms, data=atoms.info['data'])
 
+#nohup conda run -n your_env_name python testing.py

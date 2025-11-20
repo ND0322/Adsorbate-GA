@@ -1,0 +1,61 @@
+Traceback (most recent call last):
+  File "/home/nathan/Adsorbate-GA/testing.py", line 1, in <module>
+    import acat.build.action as action
+ModuleNotFoundError: No module named 'acat'
+Traceback (most recent call last):
+  File "/home/nathan/Adsorbate-GA/testing.py", line 272, in <module>
+    with open( os.path.abspath("fitness.txt", "w"))as file:
+TypeError: abspath() takes 1 positional argument but 2 were given
+
+ERROR conda.cli.main_run:execute(125): `conda run python3 /home/nathan/Adsorbate-GA/testing.py` failed. (See above for error)
+Relaxing C6H15Ni111O11Pt36
+Relaxing C6H10Ni111O7Pt36
+Relaxing C6H8Ni111O9Pt36
+Relaxing C14H23Ni111O21Pt36
+Relaxing C7H10Ni111O9Pt36
+Relaxing C10H17Ni111O14Pt36
+Relaxing C15H18Ni111O21Pt36
+Relaxing C13H21Ni111O16Pt36
+Relaxing C9H5Ni111O12Pt36
+Relaxing C10H21Ni111O12Pt36
+Relaxing C6H7Ni111O8Pt36
+Relaxing C7H5Ni111O10Pt36
+Relaxing H11Ni111Pt36
+Relaxing C8H5Ni111O11Pt36
+Relaxing C8H9Ni111O11Pt36
+Relaxing C6H7Ni111O9Pt36
+Relaxing C4H25Ni111O5Pt36
+Relaxing C8H4Ni111O8Pt36
+Relaxing C3H5Ni111O5Pt36
+Relaxing C13H29Ni111O15Pt36
+Relaxing C3H8Ni111O5Pt36
+Relaxing C9H14Ni111O13Pt36
+Relaxing C4H7Ni111O6Pt36
+Relaxing C3H7Ni111O4Pt36
+Relaxing C2H11Ni111O4Pt36
+Relaxing C5H11Ni111O5Pt36
+Relaxing C5H12Ni111O5Pt36
+Relaxing C6H5Ni111O11Pt36
+Relaxing C16H26Ni111O23Pt36
+Relaxing C5H8Ni111O8Pt36
+Relaxing C3H6Ni111O4Pt36
+Relaxing C7H19Ni111O12Pt36
+Relaxing C3H27Ni111O4Pt36
+Relaxing C4H5Ni111O7Pt36
+Relaxing C5H15Ni111O8Pt36
+Relaxing C11H10Ni111O15Pt36
+Relaxing C10H9Ni111O15Pt36
+Relaxing C12H5Ni111O14Pt36
+Relaxing C5H8Ni111O7Pt36
+Relaxing C3H6Ni111O5Pt36
+Relaxing C14H22Ni111O16Pt36
+Relaxing C13H20Ni111O19Pt36
+Relaxing C8H6Ni111O14Pt36
+Relaxing C10H23Ni111O14Pt36
+Relaxing C6H4Ni111O9Pt36
+Relaxing C12H16Ni111O15Pt36
+Relaxing C3H7Ni111O3Pt36
+Relaxing C14H19Ni111O18Pt36
+Relaxing C9H24Ni111O11Pt36
+Relaxing C4H8Ni111O7Pt36
+
