@@ -45,7 +45,6 @@ import time
 import os
 import acat.build.action as action
 from ase import Atoms
-from ase.io import Trajectory
 import traceback
 from copy import deepcopy
 import matplotlib.pyplot as plt
@@ -243,106 +242,97 @@ cc = GenerationRepetitionConvergence(pop, 5)
 chem_pots = {'CH4': -24.039, 'H2O': -14.169, 'H2': -6.989}
 
 
-traj = Trajectory("atoms.traj", 'w')
-if __name__ == '__main__':
+ncand = 1
+e_gen1 = 1e5
+atoms_gen1 = None
+for atoms in db.get_all_unrelaxed_candidates():
+    print('\rRelaxing candidate {}'.format(ncand), end='')
+    relax(atoms)
+    db.add_relaxed_step(atoms)
+    e = atoms.info['key_value_pairs']['potential_energy']
+    if e < e_gen1:
+        e_gen1 = e
+        atoms_gen1 = atoms
+    ncand += 1
 
-    pool = Pool(os.cpu_count())
-    # Perform relaxations in parallel. Especially
-    # useful when running GA on large nanoparticles
-    chig = db.get_all_unrelaxed_candidates()
-    relaxed_candidates = pool.map(relax_an_unrelaxed_candidate,
-    chig)
-    pool.close()
-    pool.join()
+with open("fitness.txt", "w") as file:
+        file.write(str(e_gen1) + "\n")
 
-    f_gen1 = -1e5
-    atoms_gen1 = None
+write("atoms.traj", atoms_gen1, append=True)
+write("atoms.xyz", atoms_gen1, append=True)
 
-    for atoms in relaxed_candidates:
-        if atoms is None:
+
+pop.update()
+
+e_gm = [e_gen1]
+atoms_gm = [atoms_gen1]
+
+# Number of generations
+num_gens = 1000
+
+max_gens = 200
+
+# Below is the iterative part of the algorithm
+gen_num = db.get_generation_number()
+ncand = gen_num * pop_size + 1
+for i in range(max_gens):
+    # Check if converged
+    if cc.converged():
+        print('Converged')
+        break
+
+    print('\nCreating and evaluating generation {0}'.format(gen_num + i + 1))
+    new_generation = []
+    e_gen = 1e5
+    atoms_gen = None
+    for _ in range(pop_size):
+        # Select an operator and use it
+        op = op_selector.get_operator()
+        # Select parents for a new candidate
+        p1, p2 = pop.get_two_candidates()
+        parents = [p1, p2]
+        offspring, desc = op.get_new_individual(parents)
+        # An operator could return None if an offspring cannot be formed
+        # by the chosen parents
+        if offspring is None:
             continue
-        f = atoms.info['key_value_pairs']['raw_score']
-        if f > f_gen1:
-            f_gen1 = f
-            atoms_gen1 = atoms
-    f_gm = [f_gen1]
-    atoms_gm = [atoms_gen1]
 
-    with open("fitness.txt", "w") as file:
-        file.write(str(f_gen1) + "\n")
+        print('\rRelaxing candidate {0}'.format(ncand), end='')
+        relax(offspring)
+        e = offspring.info['key_value_pairs']['potential_energy']
+        # Update the global minimum of the current generation
+        if e < e_gen:
+          e_gen = e
+          atoms_gen = offspring
+        new_generation.append(offspring)
+        ncand += 1
 
-    traj.write(atoms_gen1)
-    write("atoms.xyz", atoms_gen1, append=True)
+    # Append to the list of global minima
+    e_gm.append(e_gen)
+    atoms_gm.append(atoms_gen)
 
+    with open("fitness.txt", "a") as file:
+        file.write(str(e_gen) + "\n")
 
-    db.add_more_relaxed_candidates(relaxed_candidates)
-    pop.update()
+    write("atoms.traj", atoms_gen, append=True)
+    write("atoms.xyz", atoms_gen, append=True)
+    # Plot the current minima
+    #x = list(range(gen_num + i + 2 - len(e_gm), gen_num + i + 2))
+    #y = e_gm
+    #plt.xticks(range(min(x), math.ceil(max(x)) + 1))
+    #plt.xlabel('Generation')
+    #plt.ylabel('Energy / eV')
+    #plt.plot(x, y, marker='.', markersize=10)
+    #plt.show()
 
-    # Number of generations
-    num_gens = 1000
+    # We add a full relaxed generation at once, this is faster than adding
+    # one at a time
+    db.add_more_relaxed_candidates(new_generation)
 
-    # Below is the iterative part of the algorithm
-    gen_num = db.get_generation_number()
-    for i in range(num_gens):
-        # Check if converged
-        if cc.converged():
-            print('Converged')
-            break
-        print('Creating and evaluating generation {0}'.format(gen_num + i))
-        
-        pool = Pool(os.cpu_count())
-        relaxed_candidates = pool.map(procreation, range(pop_size))
-        pool.close()
-        pool.join()
+    # update the population to allow new candidates to enter
+    pop.update(new_generation)
 
-        f_gen = -1e5
-        atoms_gen = None
-
-        for atoms in relaxed_candidates:
-            if atoms is None:
-                continue
-            f = atoms.info['key_value_pairs']['raw_score']
-            if f > f_gen:
-                f_gen = f
-                atoms_gen = atoms
-        f_gm.append(f_gen)
-        atoms_gm.append(atoms_gen)
-
-        with open("fitness.txt", "a") as file:
-            file.write(str(f_gen) + "\n")
-
-        traj.write(atoms_gen)
-        write("atoms.xyz", atoms_gen, append=True)
-
-
-        #x = list(range(gen_num + i + 2 - len(f_gm), gen_num + i + 2))
-        #y = -np.array(f_gm)
-        #plt.xticks(range(min(x), math.ceil(max(x)) + 1))
-        #plt.xlabel('Generation')
-        #plt.ylabel(r'Stability ($-f$)')
-        #plt.plot(x, y, marker='.', markersize=10)
-        #plt.show()
-        db.add_more_relaxed_candidates(relaxed_candidates)
-
-        pop.update()
-
-
-        """
-         # Create a multiprocessing Pool
-        pool = Pool(os.cpu_count())
-        # Perform procreations in parallel. Especially useful when
-        # using adsorbate operators which requires site identification
-        relaxed_candidates = pool.map(procreation, range(pop_size))
-        pool.close()
-        pool.join()
-        db.add_more_relaxed_candidates(relaxed_candidates)
-
-        # Update the population to allow new candidates to enter
-        pop.update()
-        """
-
-
-        
+    
 """
 Final geometry
 Energy System total 
@@ -352,7 +342,6 @@ CuFeCr
 On surface of periodic system or particles 
 
 ase gui ridge_Ni110Pt37_ads.db
-czMHrca-UELC
 
 """
 
