@@ -1,0 +1,3688 @@
+/bin/bash: line 1: /home/nathan/miniconda3/etc/profile.d/conda.sh: No such file or directory
+/bin/bash: line 1: /home/nathan/miniconda3/etc/profile.d/conda.sh: No such file or directory
+Terminated
+
+ERROR conda.cli.main_run:execute(125): `conda run python3 -u /home/nathan/Adsorbate-GA/testing.py` failed. (See above for error)
+Relaxing C3H11Ni111O6Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C4H17Ni111O5Pt36
+Relaxing C3H7Ni111O4Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C7H9Ni111O10Pt36
+Relaxing C9H15Ni111O10Pt36
+Relaxing C7H15Ni111O11Pt36
+Relaxing C3H5Ni111O4Pt36
+Relaxing CH12Ni111OPt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C4H4Ni111O6Pt36
+Relaxing C4H6Ni111O8Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C3H7Ni111O6Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C4H8Ni111O5Pt36
+Relaxing C19H22Ni111O24Pt36
+Relaxing C7H9Ni111O11Pt36
+Relaxing C9H12Ni111O11Pt36Relaxing C3H7Ni111O3Pt36
+Relaxing C3H8Ni111O4Pt36
+Relaxing C9H10Ni111O12Pt36
+Relaxing C4H11Ni111O4Pt36
+
+Relaxing C5H12Ni111O8Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C5H2Ni111O7Pt36
+Relaxing C16H8Ni111O21Pt36
+Relaxing C19H19Ni111O26Pt36
+Relaxing C8H5Ni111O10Pt36
+Relaxing C6H4Ni111O7Pt36
+Relaxing C6H4Ni111O9Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C2H7Ni111O3Pt36
+Relaxing C3H4Ni111O3Pt36
+Relaxing C5HNi111O8Pt36
+Relaxing C6H11Ni111O8Pt36
+Relaxing C3H5Ni111O6Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C3H9Ni111O4Pt36
+Relaxing C3H10Ni111O4Pt36
+Relaxing C4H9Ni111O4Pt36
+Relaxing C11H9Ni111O15Pt36
+Relaxing C4H7Ni111O5Pt36
+Relaxing C3H5Ni111O4Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C2H6Ni111O3Pt36
+Creating and evaluating generation 1
+Relaxing CH12Ni111OPt36
+Relaxing C4H11Ni111O4Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C7H18Ni111O11Pt36
+Relaxing C8H13Ni111O11Pt36
+Relaxing C3H8Ni111O4Pt36
+Relaxing C6H12Ni111O10Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C8H20Ni111O11Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C2H6Ni111O3Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C17H17Ni111O20Pt36Relaxing C7H16Ni111O8Pt36
+
+Relaxing C3H7Ni111O6Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C6HNi111O10Pt36
+Relaxing C4H3Ni111O5Pt36
+Relaxing C11H9Ni111O15Pt36
+Relaxing CH11Ni111OPt36
+Relaxing C3H4Ni111O3Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C3H7Ni111O3Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C4H7Ni111O5Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C8H5Ni111O10Pt36
+Relaxing C3H6Ni111O4Pt36
+Relaxing C19H19Ni111O26Pt36
+Relaxing C2H5Ni111O2Pt36
+Relaxing C4H6Ni111O6Pt36
+Relaxing C4H17Ni111O5Pt36
+Relaxing CH6Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C2H5Ni111O3Pt36
+Relaxing C12H29Ni111O18Pt36
+Relaxing C6H11Ni111O8Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing C6H17Ni111O8Pt36
+Relaxing C7H8Ni111O9Pt36
+Relaxing C3H3Ni111O5Pt36
+Relaxing C7H8Ni111O12Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C4H9Ni111O4Pt36
+Relaxing CH12Ni111OPt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C16H18Ni111O22Pt36
+Creating and evaluating generation 2
+Relaxing C2H5Ni111O2Pt36
+Relaxing C3H7Ni111O3Pt36
+Relaxing C4H17Ni111O5Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C9H12Ni111O11Pt36
+Relaxing C2H5Ni111O2Pt36
+Relaxing C5H5Ni111O6Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing CH7Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C8H8Ni111O10Pt36
+Relaxing C5H15Ni111O6Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C9H11Ni111O13Pt36
+Relaxing C3H5Ni111O5Pt36
+Relaxing C12H31Ni111O16Pt36
+Relaxing C10H17Ni111O13Pt36
+Relaxing C9H15Ni111O11Pt36
+Relaxing C7H13Ni111O8Pt36
+Relaxing C5H16Ni111O7Pt36
+Relaxing C13H29Ni111O17Pt36Relaxing C11H20Ni111O14Pt36
+
+Relaxing C6H21Ni111O7Pt36
+Relaxing CNi111O2Pt36
+Relaxing C3H7Ni111O4Pt36
+Relaxing C9H10Ni111O10Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C3H11Ni111O4Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C9H10Ni111O13Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C11H17Ni111O15Pt36
+Relaxing C2H3Ni111O4Pt36
+Relaxing C4H9Ni111O7Pt36
+Relaxing C5H17Ni111O6Pt36
+Relaxing C11H15Ni111O16Pt36
+Relaxing C9H10Ni111O12Pt36
+Relaxing C5H13Ni111O5Pt36
+Relaxing C5H13Ni111O6Pt36
+Relaxing C19H22Ni111O24Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C9H12Ni111O13Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C16H15Ni111O22Pt36
+Relaxing C2H13Ni111O2Pt36
+Relaxing C4H17Ni111O5Pt36
+Relaxing C9H15Ni111O10Pt36
+Relaxing C3H14Ni111O4Pt36
+Relaxing C4H3Ni111O5Pt36
+Relaxing C3H7Ni111O6Pt36
+Relaxing H3Ni111Pt36
+Creating and evaluating generation 3
+Relaxing H3Ni111Pt36
+Relaxing C9H15Ni111O10Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C3H13Ni111O5Pt36
+Relaxing C2H6Ni111O2Pt36
+Relaxing C9H15Ni111O10Pt36
+Relaxing C7H14Ni111O9Pt36
+Relaxing C4H10Ni111O5Pt36
+Relaxing C11H25Ni111O15Pt36
+Relaxing C2H3Ni111O3Pt36
+Relaxing Ni111OPt36
+Relaxing C7H22Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C17H25Ni111O20Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C3H3Ni111O4Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C2H12Ni111O2Pt36
+Relaxing C6H14Ni111O7Pt36
+Relaxing C3H5Ni111O4Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C5H21Ni111O6Pt36
+Relaxing CNi111O2Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C4H11Ni111O6Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C7H16Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H11Ni111O8Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C2H5Ni111O3Pt36
+Relaxing C8H12Ni111O8Pt36
+Relaxing C8H25Ni111O12Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H3Ni111O5Pt36
+Relaxing C19H24Ni111O24Pt36
+Relaxing C7H8Ni111O10Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C6H13Ni111O9Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C7H16Ni111O10Pt36
+Relaxing C3H8Ni111O4Pt36
+Relaxing C8H22Ni111O9Pt36
+Relaxing C12H31Ni111O16Pt36
+Relaxing C6H12Ni111O6Pt36
+Relaxing C7H11Ni111O7Pt36
+Relaxing C16H18Ni111O19Pt36
+Relaxing C8H20Ni111O11Pt36
+Relaxing C5H9Ni111O6Pt36
+Relaxing C15H32Ni111O23Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH7Ni111OPt36
+Relaxing C11H18Ni111O15Pt36
+Relaxing C19H22Ni111O24Pt36
+Creating and evaluating generation 4
+Relaxing CH6Ni111OPt36
+Relaxing CH4Ni111OPt36
+Relaxing CH6Ni111O2Pt36
+Relaxing Ni111Pt36
+Relaxing C4H4Ni111O7Pt36
+Relaxing C4H11Ni111O3Pt36
+Relaxing C2H4Ni111O3Pt36
+Relaxing C6H14Ni111O7Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C5H10Ni111O5Pt36
+Relaxing C19H22Ni111O24Pt36
+Relaxing C5H28Ni111O5Pt36
+Relaxing C2H14Ni111O3Pt36
+Relaxing C19H22Ni111O24Pt36
+Relaxing C3H11Ni111O4Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H2Ni111Pt36
+Relaxing C5H9Ni111O8Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C10H30Ni111O13Pt36
+Relaxing CH8Ni111OPt36
+Relaxing CH2Ni111O2Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing C4H17Ni111O5Pt36
+Relaxing H4Ni111Pt36
+Relaxing C14H32Ni111O22Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C6H9Ni111O7Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing CH3Ni111OPt36
+Relaxing C8H13Ni111O9Pt36
+Relaxing C6H14Ni111O6Pt36
+Relaxing C4H10Ni111O5Pt36
+Relaxing C12H29Ni111O18Pt36
+Relaxing C14H19Ni111O21Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing C2H5Ni111O2Pt36
+Relaxing CH6Ni111OPt36
+Relaxing C12H31Ni111O16Pt36
+Relaxing C3H4Ni111O3Pt36
+Relaxing CH6Ni111OPt36
+Relaxing C2H5Ni111O3Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C2H5Ni111O3Pt36
+Relaxing C9H14Ni111O12Pt36
+Creating and evaluating generation 5
+Relaxing C12H29Ni111O16Pt36
+Relaxing Ni111Pt36
+Relaxing CNi111OPt36
+Relaxing H5Ni111Pt36
+Relaxing C2H4Ni111O4Pt36
+Relaxing HNi111Pt36
+Relaxing HNi111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C7H15Ni111O10Pt36
+Relaxing C7H17Ni111O10Pt36
+Relaxing C2H14Ni111O2Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C4H11Ni111O3Pt36
+Relaxing C2H12Ni111O4Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C3H3Ni111O4Pt36
+Relaxing C12H23Ni111O17Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing H3Ni111Pt36Relaxing C10H20Ni111O13Pt36
+
+Relaxing C3H16Ni111O3Pt36
+Relaxing CH3Ni111OPt36
+Relaxing C19H21Ni111O25Pt36
+Relaxing C6H13Ni111O6Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C2H12Ni111O3Pt36
+Relaxing C12H24Ni111O20Pt36Relaxing C6H11Ni111O10Pt36
+
+Relaxing H3Ni111Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C6H14Ni111O6Pt36Relaxing Ni111OPt36
+Relaxing C4H15Ni111O6Pt36
+
+Relaxing C6H34Ni111O8Pt36
+Relaxing C4H26Ni111O5Pt36
+Relaxing C7H19Ni111O11Pt36
+Relaxing H3Ni111Pt36
+Relaxing C7H9Ni111O10Pt36
+Relaxing CNi111Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C12H31Ni111O16Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing Ni111OPt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C12H31Ni111O16Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C5H25Ni111O6Pt36
+Creating and evaluating generation 6
+Relaxing C7H14Ni111O8Pt36
+Relaxing H2Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing C5H12Ni111O8Pt36Relaxing C2H9Ni111O3Pt36
+
+Relaxing H5Ni111Pt36
+Relaxing C9H23Ni111O12Pt36
+Relaxing C4H10Ni111O6Pt36
+Relaxing H8Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing C19H18Ni111O24Pt36
+Relaxing CH3Ni111O2Pt36
+Relaxing C5H14Ni111O6Pt36
+Relaxing C6H14Ni111O6Pt36
+Relaxing C3H8Ni111O5Pt36
+Relaxing C5H7Ni111O7Pt36
+Relaxing C15H21Ni111O21Pt36
+Relaxing C12H27Ni111O20Pt36
+Relaxing CH3Ni111O2Pt36
+Relaxing C4H23Ni111O5Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C7H16Ni111O7Pt36
+Relaxing C4H17Ni111O5Pt36
+Relaxing C9H15Ni111O10Pt36
+Relaxing C8H11Ni111O10Pt36
+Relaxing CH4Ni111O2Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C10H21Ni111O11Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C6H12Ni111O9Pt36
+Relaxing C12H30Ni111O16Pt36Relaxing C19H22Ni111O24Pt36
+
+Relaxing C12H29Ni111O16Pt36
+Relaxing H3Ni111Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing CH3Ni111OPt36
+Relaxing CH10Ni111OPt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C2H25Ni111O3Pt36
+Relaxing C5H10Ni111O5Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing H3Ni111Pt36
+Relaxing CH12Ni111O2Pt36
+Relaxing C10H23Ni111O16Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H17Ni111O7Pt36
+Relaxing C18H23Ni111O24Pt36
+Relaxing C17H25Ni111O24Pt36
+Relaxing C9H15Ni111O10Pt36
+Relaxing C5H14Ni111O5Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C2H5Ni111O3Pt36
+Creating and evaluating generation 7
+Relaxing CH8Ni111OPt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing H8Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing C4H8Ni111O4Pt36
+Relaxing CH2Ni111O2Pt36
+Relaxing CH5Ni111O2Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing H2Ni111Pt36
+Relaxing C2H18Ni111O3Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C4H9Ni111O7Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C10H30Ni111O15Pt36
+Relaxing H3Ni111Pt36
+Relaxing C2H7Ni111O3Pt36
+Relaxing C10H21Ni111O17Pt36
+Relaxing C5H19Ni111O7Pt36
+Relaxing C4H13Ni111O5Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing C15H31Ni111O22Pt36
+Relaxing C10H27Ni111O16Pt36
+Relaxing H2Ni111Pt36
+Relaxing C5H10Ni111O6Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C3H7Ni111O6Pt36
+Relaxing C6H23Ni111O10Pt36
+Relaxing CH4Ni111O2Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C12H30Ni111O16Pt36
+Relaxing C11H17Ni111O13Pt36
+Relaxing H3Ni111Pt36
+Relaxing C3H7Ni111O6Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing HNi111Pt36
+Relaxing C3H10Ni111O6Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C2H5Ni111O2Pt36
+Relaxing C11H29Ni111O14Pt36
+Relaxing C3H7Ni111O6Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing CH17Ni111OPt36
+Relaxing C4H17Ni111O5Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C2H5Ni111O3Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C3H7Ni111O6Pt36
+Creating and evaluating generation 8
+Relaxing C4H17Ni111O5Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing CH5Ni111O2Pt36
+Relaxing CH8Ni111O2Pt36
+Relaxing C3H9Ni111O5Pt36
+Relaxing C12H30Ni111O16Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H14Ni111O8Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C8H18Ni111O11Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H17Ni111O7Pt36
+Relaxing C13H14Ni111O20Pt36
+Relaxing Ni111Pt36
+Relaxing C6H35Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H11Ni111O4Pt36
+Relaxing C5H14Ni111O8Pt36
+Relaxing CH7Ni111OPt36
+Relaxing CH7Ni111OPt36
+Relaxing C14H27Ni111O23Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H17Ni111O6Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C3H7Ni111O6Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C2H7Ni111O2Pt36
+Relaxing C12H30Ni111O16Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing HNi111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H8Ni111Pt36
+Relaxing C5H12Ni111O7Pt36
+Relaxing C7H12Ni111O8Pt36
+Relaxing C5H23Ni111O6Pt36
+Relaxing C9H15Ni111O10Pt36Relaxing C2H9Ni111O3Pt36
+Relaxing HNi111Pt36
+
+Relaxing C6H16Ni111O8Pt36
+Relaxing C6H36Ni111O8Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C8H22Ni111O12Pt36
+Relaxing C11H30Ni111O15Pt36
+Relaxing C6H16Ni111O7Pt36
+Relaxing C12H30Ni111O16Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing CH6Ni111OPt36
+Relaxing H6Ni111Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C6H14Ni111O7Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C2H25Ni111O3Pt36
+Creating and evaluating generation 9
+Relaxing H5Ni111Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C2H5Ni111O3Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H10Ni111O5Pt36
+Relaxing C2H6Ni111O3Pt36
+Relaxing H2Ni111Pt36
+Relaxing C4H10Ni111O5Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C2H20Ni111O3Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C2H26Ni111O3Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C6H13Ni111O9Pt36
+Relaxing C2H12Ni111O3Pt36
+Relaxing H5Ni111Pt36
+Relaxing C6H11Ni111O10Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C3H11Ni111O4Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C3H11Ni111O3Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H14Ni111O6Pt36
+Relaxing CH8Ni111OPt36Relaxing C6H19Ni111O7Pt36
+
+Relaxing C18H23Ni111O25Pt36
+Relaxing C5H13Ni111O10Pt36
+Relaxing C8H22Ni111O12Pt36
+Relaxing C6H12Ni111O7Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C12H23Ni111O17Pt36
+Relaxing H3Ni111Pt36
+Relaxing C12H17Ni111O17Pt36
+Relaxing HNi111Pt36
+Relaxing C7H24Ni111O10Pt36
+Relaxing CH2Ni111OPt36
+Relaxing H3Ni111Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing H2Ni111Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing H8Ni111Pt36
+Relaxing C2H7Ni111O3Pt36
+Relaxing C10H19Ni111O13Pt36
+Relaxing C12H11Ni111O15Pt36
+Relaxing C8H16Ni111O10Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing HNi111Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing C3H7Ni111O6Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C2H12Ni111O2Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing H3Ni111Pt36
+Creating and evaluating generation 10
+Relaxing C4H11Ni111O4Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing CH7Ni111Pt36
+Relaxing C11H10Ni111O15Pt36
+Relaxing C2H6Ni111O2Pt36
+Relaxing C8H23Ni111O11Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C5H24Ni111O6Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing C7H27Ni111O11Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C8H19Ni111O9Pt36
+Relaxing H3Ni111Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C8H14Ni111O10Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing CH7Ni111O2Pt36
+Relaxing C11H33Ni111O15Pt36
+Relaxing C6H11Ni111O12Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C10H26Ni111O14Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing H5Ni111Pt36
+Relaxing H5Ni111Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing C5H30Ni111O7Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C2H25Ni111O3Pt36
+Relaxing C2H25Ni111O3Pt36
+Relaxing H3Ni111Pt36Relaxing C5H14Ni111O6Pt36
+
+Relaxing C11H20Ni111O14Pt36
+Relaxing C19H22Ni111O24Pt36
+Relaxing C2H3Ni111O3Pt36
+Relaxing C9H12Ni111O12Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C7H8Ni111O11Pt36
+Relaxing C11H17Ni111O14Pt36
+Relaxing C6H14Ni111O6Pt36
+Relaxing CH7Ni111O4Pt36
+Relaxing C8H15Ni111O10Pt36
+Relaxing C8H31Ni111O10Pt36
+Relaxing C7H15Ni111O9Pt36
+Relaxing C2H9Ni111O2Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H14Ni111O6Pt36
+Relaxing C9H15Ni111O10Pt36
+Relaxing C17H22Ni111O20Pt36
+Relaxing C16H20Ni111O22Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C4H17Ni111O5Pt36
+Creating and evaluating generation 11
+Relaxing H5Ni111Pt36
+Relaxing H8Ni111Pt36
+Relaxing C4H17Ni111O5Pt36
+Relaxing C2H25Ni111O3Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing H4Ni111Pt36
+Relaxing Ni111Pt36
+Relaxing C2H10Ni111O2Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C5H12Ni111O7Pt36
+Relaxing C5H28Ni111O7Pt36Relaxing C2H21Ni111O3Pt36
+
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H13Ni111O6Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C2H26Ni111O3Pt36
+Relaxing C3H9Ni111O6Pt36
+Relaxing H5Ni111Pt36
+Relaxing C17H24Ni111O22Pt36
+Relaxing CH3Ni111OPt36
+Relaxing C9H14Ni111O14Pt36
+Relaxing C2H5Ni111O3Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C5H11Ni111O5Pt36
+Relaxing C5H12Ni111O8Pt36Relaxing CH7Ni111OPt36
+
+Relaxing C5H9Ni111O5Pt36
+Relaxing C14H32Ni111O18Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing CH6Ni111OPt36
+Relaxing H5Ni111Pt36
+Relaxing C10H13Ni111O14Pt36
+Relaxing C6H8Ni111O7Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing H3Ni111Pt36
+Relaxing H9Ni111Pt36
+Relaxing H5Ni111Pt36
+Relaxing C6H14Ni111O5Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing H5Ni111Pt36
+Relaxing Ni111Pt36
+Relaxing C5H17Ni111O9Pt36
+Relaxing HNi111Pt36
+Relaxing H5Ni111Pt36
+Relaxing CH7Ni111OPt36
+Relaxing CH7Ni111OPt36
+Relaxing C9H18Ni111O14Pt36
+Relaxing CH2Ni111OPt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing CH7Ni111O2Pt36
+Creating and evaluating generation 12
+Relaxing C2H8Ni111O2Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing CH6Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH7Ni111OPt36
+Relaxing C10H23Ni111O14Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3H13Ni111O5Pt36
+Relaxing CH10Ni111OPt36
+Relaxing C2H11Ni111O3Pt36
+Relaxing H4Ni111Pt36
+Relaxing C2H12Ni111O2Pt36
+Relaxing C5H14Ni111O7Pt36
+Relaxing C4H9Ni111O4Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C12H16Ni111O17Pt36
+Relaxing C3H17Ni111O4Pt36
+Relaxing C2H8Ni111O3Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C2H6Ni111O2Pt36
+Relaxing C14H34Ni111O19Pt36
+Relaxing C7H14Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H30Ni111O6Pt36
+Relaxing H3Ni111Pt36
+Relaxing C2H7Ni111O2Pt36
+Relaxing H9Ni111Pt36
+Relaxing C4H11Ni111O7Pt36
+Relaxing C20H22Ni111O25Pt36Relaxing C7H9Ni111O9Pt36
+Relaxing CH6Ni111OPt36
+
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H2Ni111Pt36
+Relaxing C6H18Ni111O9Pt36
+Relaxing C17H23Ni111O23Pt36
+Relaxing H10Ni111O2Pt36Relaxing C3H8Ni111O4Pt36
+
+Relaxing C14H33Ni111O20Pt36
+Relaxing C20H28Ni111O26Pt36
+Relaxing CH7Ni111O2Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C2H11Ni111O4Pt36
+Relaxing C5H14Ni111O6Pt36
+Relaxing H4Ni111Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C2H6Ni111O2Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C12H24Ni111O17Pt36
+Relaxing C4H11Ni111O4Pt36
+Creating and evaluating generation 13
+Relaxing C2H8Ni111O2Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing CH6Ni111OPt36
+Relaxing H5Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C13H16Ni111O19Pt36
+Relaxing C11H19Ni111O16Pt36
+Relaxing CH7Ni111OPt36Relaxing C7H15Ni111O10Pt36
+
+Relaxing C7H14Ni111O6Pt36
+Relaxing C11H22Ni111O14Pt36
+Relaxing C6H19Ni111O10Pt36
+Relaxing C9H13Ni111O14Pt36
+Relaxing C6H15Ni111O6Pt36
+Relaxing H4Ni111Pt36
+Relaxing H3Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing C3H5Ni111O4Pt36
+Relaxing CH2Ni111O2Pt36
+Relaxing C12H29Ni111O16Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing Ni111Pt36
+Relaxing C10H23Ni111O15Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C6H12Ni111O8Pt36
+Relaxing C5H15Ni111O7Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C7H16Ni111O10Pt36
+Relaxing C8H11Ni111O10Pt36
+Relaxing C7H8Ni111O10Pt36
+Relaxing C4H8Ni111O5Pt36
+Relaxing CH3Ni111OPt36
+Relaxing C6H12Ni111O9Pt36
+Relaxing C5H12Ni111O7Pt36
+Relaxing CH7Ni111OPt36
+Relaxing CH5Ni111OPt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing H3Ni111Pt36
+Relaxing Ni111Pt36
+Relaxing C20H20Ni111O27Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing CH2Ni111OPt36
+Relaxing HNi111Pt36
+Relaxing C12H33Ni111O17Pt36
+Relaxing C4H8Ni111O5Pt36
+Relaxing H3Ni111Pt36
+Relaxing C4H7Ni111O5Pt36
+Relaxing C6H14Ni111O6Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C18H21Ni111O25Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing CH8Ni111OPt36
+Creating and evaluating generation 14
+Relaxing C6H14Ni111O6Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C2H25Ni111O3Pt36
+Relaxing CNi111O2Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H3Ni111Pt36
+Relaxing C8H22Ni111O12Pt36
+Relaxing C3H11Ni111O3Pt36
+Relaxing C6H13Ni111O9Pt36
+Relaxing C6H12Ni111O10Pt36
+Relaxing HNi111Pt36
+Relaxing C6H36Ni111O8Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C5H11Ni111O8Pt36
+Relaxing C15H32Ni111O20Pt36
+Relaxing C15H18Ni111O21Pt36
+Relaxing C3H8Ni111O5Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C3H8Ni111O5Pt36
+Relaxing C11H25Ni111O15Pt36
+Relaxing C5H12Ni111O7Pt36
+Relaxing C6H9Ni111O5Pt36
+Relaxing CH8Ni111OPt36
+Relaxing H5Ni111Pt36
+Relaxing C5H12Ni111O7Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing HNi111Pt36
+Relaxing C2H22Ni111O3Pt36
+Relaxing C2H25Ni111O3Pt36
+Relaxing C7H15Ni111O10Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C5H11Ni111O8Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing CH8Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3H8Ni111O5Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C7H14Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C19H23Ni111O24Pt36
+Relaxing C2Ni111O3Pt36
+Relaxing C7H17Ni111O8Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing H5Ni111Pt36
+Relaxing H4Ni111Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C16H18Ni111O20Pt36
+Relaxing H5Ni111Pt36
+Relaxing C6H16Ni111O8Pt36
+Creating and evaluating generation 15
+Relaxing C5H12Ni111O7Pt36
+Relaxing C2H25Ni111O3Pt36
+Relaxing H2Ni111Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C5H8Ni111O6Pt36
+Relaxing CH11Ni111OPt36
+Relaxing C3H4Ni111O5Pt36
+Relaxing C8H13Ni111O9Pt36
+Relaxing CH2Ni111OPt36
+Relaxing Ni111Pt36
+Relaxing C4H4Ni111O6Pt36
+Relaxing C10H10Ni111O15Pt36
+Relaxing H8Ni111Pt36
+Relaxing H9Ni111Pt36
+Relaxing C3H4Ni111O4Pt36
+Relaxing H2Ni111Pt36
+Relaxing HNi111Pt36Relaxing C8H18Ni111O9Pt36
+Relaxing C7H7Ni111O9Pt36
+Relaxing H4Ni111Pt36
+Relaxing C5H9Ni111O8Pt36
+Relaxing H5Ni111Pt36
+
+Relaxing C6H17Ni111O9Pt36
+Relaxing C13H22Ni111O18Pt36
+Relaxing C6H8Ni111O6Pt36
+Relaxing C7H15Ni111O9Pt36
+Relaxing C6H9Ni111O5Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing H3Ni111Pt36
+Relaxing C2H9Ni111O3Pt36
+Relaxing C20H29Ni111O26Pt36
+Relaxing CH6Ni111OPt36
+Relaxing C3H19Ni111O5Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing Ni111Pt36
+Relaxing C6H8Ni111O7Pt36
+Relaxing C6H13Ni111O7Pt36
+Relaxing H5Ni111Pt36
+Relaxing C13H22Ni111O20Pt36
+Relaxing C9H20Ni111O12Pt36
+Relaxing C5H17Ni111O7Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C2H4Ni111O2Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C5H16Ni111O7Pt36
+Relaxing H3Ni111Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C2H25Ni111O3Pt36
+Creating and evaluating generation 16
+Relaxing C5H12Ni111O8Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing CH3Ni111OPt36
+Relaxing C19H22Ni111O24Pt36
+Relaxing H5Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C9H12Ni111O12Pt36
+Relaxing H3Ni111Pt36
+Relaxing C7H17Ni111O8Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing C19H21Ni111O28Pt36
+Relaxing C2H7Ni111O3Pt36
+Relaxing C14H35Ni111O18Pt36
+Relaxing CNi111O2Pt36
+Relaxing C18H16Ni111O22Pt36
+Relaxing H2Ni111Pt36
+Relaxing H3Ni111Pt36
+Relaxing C6H15Ni111O10Pt36
+Relaxing H3Ni111Pt36
+Relaxing C7H22Ni111O10Pt36
+Relaxing C5H13Ni111O9Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing H12Ni111Pt36
+Relaxing CNi111OPt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing C15H19Ni111O20Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C11H15Ni111O13Pt36
+Relaxing C13H15Ni111O17Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C2H7Ni111O3Pt36
+Relaxing H5Ni111Pt36
+Relaxing C5H11Ni111O5Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C2H25Ni111O3Pt36
+Relaxing CH9Ni111OPt36
+Relaxing C4H10Ni111O5Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C2H10Ni111O3Pt36
+Relaxing C19H22Ni111O24Pt36
+Relaxing C5H28Ni111O7Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C13H30Ni111O17Pt36
+Relaxing C3H6Ni111O3Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing CH7Ni111Pt36
+Relaxing C2H9Ni111O2Pt36
+Creating and evaluating generation 17
+Relaxing C5H12Ni111O8Pt36
+Relaxing C7H16Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3H8Ni111O4Pt36
+Relaxing C7H7Ni111O9Pt36
+Relaxing CH6Ni111OPt36
+Relaxing C5H14Ni111O6Pt36
+Relaxing C11H17Ni111O15Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3H10Ni111O5Pt36
+Relaxing C6H16Ni111O9Pt36
+Relaxing C5H12Ni111O7Pt36
+Relaxing C3H24Ni111O4Pt36
+Relaxing C3H10Ni111O5Pt36
+Relaxing C6H28Ni111O8Pt36
+Relaxing C3H11Ni111O4Pt36
+Relaxing C12H31Ni111O18Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C5H8Ni111O5Pt36
+Relaxing C9H13Ni111O13Pt36
+Relaxing C11H18Ni111O13Pt36
+Relaxing C12H26Ni111O17Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C7H24Ni111O10Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing C6H14Ni111O6Pt36
+Relaxing C12H30Ni111O16Pt36
+Relaxing C8H13Ni111O11Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C2H18Ni111O3Pt36
+Relaxing C7H18Ni111O11Pt36
+Relaxing C5H12Ni111O7Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing CH5Ni111O2Pt36
+Relaxing CH6Ni111OPt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C6H17Ni111O7Pt36
+Relaxing H2Ni111Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C4H4Ni111O5Pt36
+Relaxing C12H28Ni111O17Pt36
+Relaxing C19H22Ni111O24Pt36
+Relaxing C10H16Ni111O12Pt36
+Relaxing C13H36Ni111O17Pt36
+Relaxing C2H25Ni111O3Pt36
+Relaxing C14H22Ni111O19Pt36
+Relaxing CH7Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H28Ni111O8Pt36
+Creating and evaluating generation 18
+Relaxing C5H12Ni111O8Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing H2Ni111Pt36
+Relaxing CH5Ni111OPt36
+Relaxing C2H5Ni111O3Pt36
+Relaxing CH12Ni111OPt36
+Relaxing C3H3Ni111O6Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H13Ni111O6Pt36
+Relaxing H3Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing C11H22Ni111O19Pt36
+Relaxing CNi111OPt36
+Relaxing C6H36Ni111O8Pt36
+Relaxing C2H25Ni111O3Pt36
+Relaxing C3H14Ni111O5Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H13Ni111O7Pt36
+Relaxing C12H17Ni111O17Pt36
+Relaxing C3H8Ni111O4Pt36
+Relaxing C2H9Ni111O3Pt36
+Relaxing CH7Ni111OPt36
+Relaxing CH10Ni111OPt36
+Relaxing H8Ni111Pt36
+Relaxing C3H9Ni111O6Pt36
+Relaxing H5Ni111Pt36
+Relaxing CH5Ni111OPt36
+Relaxing C14H19Ni111O19Pt36
+Relaxing C11H21Ni111O19Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing C17H25Ni111O24Pt36Relaxing CH3Ni111OPt36
+
+Relaxing C5H12Ni111O8Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing H8Ni111Pt36
+Relaxing C2H25Ni111O3Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing CH5Ni111O2Pt36
+Relaxing H5Ni111Pt36
+Relaxing C14H24Ni111O22Pt36
+Relaxing C12H31Ni111O15Pt36
+Relaxing HNi111Pt36
+Relaxing C16H18Ni111O18Pt36
+Relaxing C6H19Ni111O8Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C11H30Ni111O18Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C5H29Ni111O6Pt36
+Relaxing HNi111Pt36
+Relaxing C12H30Ni111O16Pt36
+Creating and evaluating generation 19
+Relaxing H5Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H5Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing C2H10Ni111O3Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH2Ni111O2Pt36
+Relaxing CH6Ni111O2Pt36
+Relaxing CH8Ni111O2Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C6H14Ni111O6Pt36
+Relaxing C5H14Ni111O8Pt36
+Relaxing C6H17Ni111O7Pt36
+Relaxing CH5Ni111O2Pt36Relaxing H2Ni111Pt36
+
+Relaxing C4H6Ni111O7Pt36
+Relaxing C10H20Ni111O14Pt36
+Relaxing H5Ni111Pt36
+Relaxing C7H24Ni111O11Pt36
+Relaxing C2H5Ni111O3Pt36
+Relaxing C14H21Ni111O19Pt36
+Relaxing H2Ni111Pt36
+Relaxing C2HNi111O2Pt36
+Relaxing H5Ni111Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C5H13Ni111O9Pt36
+Relaxing CH2Ni111OPt36
+Relaxing CH5Ni111OPt36
+Relaxing CH10Ni111OPt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing H6Ni111Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C10H21Ni111O14Pt36
+Relaxing C2H9Ni111O3Pt36
+Relaxing C19H22Ni111O24Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C5H12Ni111O7Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing H3Ni111Pt36
+Relaxing Ni111Pt36
+Relaxing C8H29Ni111O12Pt36
+Relaxing HNi111Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C6H17Ni111O7Pt36
+Relaxing C4H15Ni111O6Pt36
+Relaxing C4H11Ni111O5Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C5H12Ni111O7Pt36
+Relaxing C2H9Ni111O2Pt36
+Creating and evaluating generation 20
+Relaxing C5H12Ni111O7Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing CH3Ni111O2Pt36
+Relaxing H3Ni111Pt36
+Relaxing C4H19Ni111O5Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C8H9Ni111O10Pt36Relaxing CH12Ni111O2Pt36
+
+Relaxing C4H13Ni111O4Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH6Ni111OPt36
+Relaxing H7Ni111Pt36
+Relaxing C2H7Ni111O3Pt36
+Relaxing CH9Ni111OPt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing CH6Ni111OPt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C19H22Ni111O24Pt36
+Relaxing H3Ni111Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C4H11Ni111O4Pt36Relaxing C16H18Ni111O22Pt36
+Relaxing C5H12Ni111O8Pt36
+
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C2H10Ni111O4Pt36Relaxing C11H17Ni111O15Pt36
+Relaxing CH6Ni111OPt36
+
+Relaxing C2H11Ni111O4Pt36
+Relaxing C5H10Ni111O5Pt36
+Relaxing H3Ni111Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C19H22Ni111O24Pt36
+Relaxing C19H22Ni111O24Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C3H13Ni111O4Pt36
+Relaxing C5H12Ni111O7Pt36
+Relaxing C2H9Ni111O3Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C8H17Ni111O10Pt36
+Relaxing C6H12Ni111O11Pt36
+Relaxing H3Ni111Pt36
+Relaxing C5H13Ni111O7Pt36
+Relaxing C11H20Ni111O15Pt36
+Relaxing C4H28Ni111O7Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing H3Ni111Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing H3Ni111Pt36
+Relaxing C5H7Ni111O5Pt36
+Relaxing CH3Ni111OPt36
+Creating and evaluating generation 21
+Relaxing HNi111Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing CH8Ni111OPt36
+Relaxing CNi111OPt36
+Relaxing H3Ni111Pt36
+Relaxing C6H14Ni111O6Pt36
+Relaxing C3H7Ni111O4Pt36
+Relaxing C11H18Ni111O15Pt36
+Relaxing C5H13Ni111O9Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C7H17Ni111O10Pt36
+Relaxing C4H30Ni111O5Pt36
+Relaxing CH8Ni111OPt36Relaxing C6H27Ni111O8Pt36
+
+Relaxing C2H8Ni111O2Pt36
+Relaxing C5H14Ni111O7Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing CH5Ni111OPt36
+Relaxing C3H19Ni111O5Pt36
+Relaxing C7H14Ni111O9Pt36
+Relaxing C10H17Ni111O11Pt36
+Relaxing HNi111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C11H20Ni111O14Pt36
+Relaxing CNi111O2Pt36
+Relaxing H9Ni111Pt36
+Relaxing H6Ni111Pt36
+Relaxing CH2Ni111O2Pt36
+Relaxing H2Ni111Pt36
+Relaxing C3H12Ni111O5Pt36
+Relaxing C2H19Ni111O3Pt36
+Relaxing C22H24Ni111O29Pt36
+Relaxing C10H36Ni111O13Pt36
+Relaxing C2H11Ni111O4Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing HNi111Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C6H14Ni111O6Pt36
+Relaxing C4H12Ni111O6Pt36
+Relaxing C14H32Ni111O19Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing H3Ni111Pt36
+Relaxing C19H22Ni111O24Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C2H25Ni111O3Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C6H14Ni111O6Pt36
+Relaxing C6H14Ni111O6Pt36
+Creating and evaluating generation 22
+Relaxing CH8Ni111OPt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing CH5Ni111OPt36
+Relaxing H9Ni111Pt36
+Relaxing H2Ni111Pt36
+Relaxing C3H5Ni111O3Pt36
+Relaxing CH2Ni111OPt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C2H11Ni111O3Pt36
+Relaxing HNi111Pt36
+Relaxing C9H20Ni111O12Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C14H14Ni111O18Pt36
+Relaxing C11H21Ni111O18Pt36
+Relaxing H3Ni111Pt36
+Relaxing C3H15Ni111O6Pt36
+Relaxing H2Ni111Pt36
+Relaxing Ni111Pt36
+Relaxing CHNi111O2Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C2H15Ni111O2Pt36
+Relaxing C6H25Ni111O9Pt36
+Relaxing Ni111Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C9H20Ni111O16Pt36
+Relaxing C2H4Ni111O2Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing HNi111Pt36
+Relaxing C19H22Ni111O24Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing C12H29Ni111O15Pt36
+Relaxing HNi111Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C5H18Ni111O8Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C5H13Ni111O7Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C5H12Ni111O7Pt36
+Relaxing CH3Ni111OPt36
+Relaxing H3Ni111Pt36
+Relaxing CH2Ni111O2Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C2H3Ni111O2Pt36
+Relaxing CH2Ni111OPt36
+Relaxing CH7Ni111OPt36
+Relaxing C10H29Ni111O15Pt36
+Relaxing HNi111Pt36
+Relaxing CH3Ni111OPt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C2H6Ni111O2Pt36
+Relaxing C5H12Ni111O7Pt36
+Creating and evaluating generation 23
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH3Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C2H5Ni111O3Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C2H8Ni111O2Pt36
+Relaxing C3H7Ni111O5Pt36
+Relaxing H10Ni111Pt36
+Relaxing CH8Ni111OPt36
+Relaxing CH9Ni111O2Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH2Ni111O2Pt36
+Relaxing C6H16Ni111O10Pt36
+Relaxing C6H41Ni111O8Pt36
+Relaxing C5H11Ni111O8Pt36
+Relaxing C12H22Ni111O16Pt36
+Relaxing C10H17Ni111O13Pt36
+Relaxing C19H24Ni111O24Pt36
+Relaxing C5H13Ni111O8Pt36Relaxing C11H17Ni111O15Pt36
+
+Relaxing C14H32Ni111O23Pt36
+Relaxing CH8Ni111OPt36
+Relaxing CH7Ni111OPt36
+Relaxing C3H24Ni111O5Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H8Ni111Pt36
+Relaxing C2H17Ni111O3Pt36
+Relaxing C6H36Ni111O8Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C3H23Ni111O5Pt36
+Relaxing C2H6Ni111O2Pt36Relaxing C2H8Ni111O2Pt36
+
+Relaxing C7H18Ni111O11Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing CH3Ni111OPt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C6H14Ni111O6Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing H4Ni111Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing CH5Ni111OPt36[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+
+Relaxing CH8Ni111OPt36
+Relaxing H3Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH2Ni111OPt36
+Relaxing C2H10Ni111O4Pt36Relaxing CH5Ni111OPt36
+
+Relaxing C9H25Ni111O12Pt36
+Relaxing C3H8Ni111O4Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C2H17Ni111O3Pt36
+Relaxing C8H21Ni111O12Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing CNi111O2Pt36
+Creating and evaluating generation 24
+Relaxing C2H10Ni111O4Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C19H22Ni111O24Pt36
+Relaxing CHNi111O2Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H34Ni111O8Pt36
+Relaxing H6Ni111Pt36
+Relaxing C3H11Ni111O6Pt36
+Relaxing H7Ni111Pt36
+Relaxing H6Ni111Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing H3Ni111Pt36
+Relaxing C11H18Ni111O15Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C6H14Ni111O6Pt36
+Relaxing CHNi111O2Pt36
+Relaxing C3H15Ni111O5Pt36Relaxing CH2Ni111OPt36
+
+Relaxing C2H25Ni111O3Pt36
+Relaxing C5H21Ni111O7Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H5Ni111Pt36
+Relaxing H9Ni111Pt36
+Relaxing CH3Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H15Ni111O8Pt36
+Relaxing C7H34Ni111O10Pt36
+Relaxing C6H14Ni111O7Pt36
+Relaxing C8H12Ni111O11Pt36
+Relaxing C7H15Ni111O8Pt36
+Relaxing C19H29Ni111O24Pt36
+Relaxing C4H30Ni111O6Pt36
+Relaxing CH2Ni111OPt36
+Relaxing H4Ni111Pt36
+Relaxing H3Ni111Pt36
+Relaxing C9H19Ni111O10Pt36
+Relaxing C8H23Ni111O11Pt36
+Relaxing C8H12Ni111O10Pt36
+Relaxing CH5Ni111OPt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing CH5Ni111O2Pt36
+Relaxing C13H15Ni111O16Pt36
+Relaxing C2H6Ni111O2Pt36
+Relaxing C9H22Ni111O16Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H5Ni111Pt36
+Relaxing H5Ni111Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C5H14Ni111O8Pt36
+Relaxing C9H15Ni111O10Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C3H16Ni111O6Pt36
+Creating and evaluating generation 25
+Relaxing H5Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C2H8Ni111O3Pt36
+Relaxing C3H6Ni111O3Pt36
+Relaxing C3H9Ni111O3Pt36
+Relaxing C2H9Ni111O3Pt36
+Relaxing C8H11Ni111O9Pt36
+Relaxing C14H12Ni111O18Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C2H6Ni111O2Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C10H23Ni111O13Pt36
+Relaxing C14H19Ni111O19Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H2Ni111Pt36
+Relaxing C14H22Ni111O18Pt36
+Relaxing C9H31Ni111O13Pt36
+Relaxing C5H14Ni111O7Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C5H12Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H12Ni111O8Pt36
+Relaxing C4H10Ni111O8Pt36
+Relaxing H8Ni111Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing H5Ni111Pt36
+Relaxing C3H6Ni111O4Pt36
+Relaxing H3Ni111Pt36
+Relaxing C3H7Ni111O5Pt36
+Relaxing C6H14Ni111O6Pt36
+Relaxing C19H22Ni111O24Pt36
+Relaxing H3Ni111Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C12H31Ni111O15Pt36
+Relaxing H5Ni111Pt36
+Relaxing C9H20Ni111O13Pt36
+Relaxing CH6Ni111OPt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C6H9Ni111O10Pt36
+Relaxing HNi111Pt36
+Relaxing C7H17Ni111O8Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing H4Ni111Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C7H14Ni111O8Pt36
+Creating and evaluating generation 26
+Relaxing H6Ni111Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C5H12Ni111O7Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing H3Ni111Pt36
+Relaxing C10H15Ni111O13Pt36
+Relaxing H3Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3H13Ni111O5Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing H2Ni111Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C6H17Ni111O9Pt36
+Relaxing C6H15Ni111O7Pt36
+Relaxing C11H21Ni111O14Pt36
+Relaxing H8Ni111Pt36
+Relaxing C8H24Ni111O11Pt36
+Relaxing C12H31Ni111O14Pt36
+Relaxing C2H3Ni111O4Pt36
+Relaxing C6H17Ni111O7Pt36
+Relaxing C4H6Ni111O6Pt36
+Relaxing C2H12Ni111O2Pt36
+Relaxing C12H29Ni111O16Pt36Relaxing C15H33Ni111O23Pt36
+
+Relaxing C3H7Ni111O4Pt36
+Relaxing C4H10Ni111O7Pt36
+Relaxing C5H14Ni111O9Pt36Relaxing C9H29Ni111O13Pt36
+
+Relaxing C9H12Ni111O13Pt36
+Relaxing C6H14Ni111O6Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C5H21Ni111O8Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C2H4Ni111O3Pt36
+Relaxing CH5Ni111OPt36
+Relaxing H3Ni111Pt36
+Relaxing H2Ni111Pt36
+Relaxing CH4Ni111O2Pt36
+Relaxing C2H8Ni111O3Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C2H6Ni111O2Pt36
+Relaxing C2H16Ni111O3Pt36
+Relaxing H2Ni111Pt36
+Relaxing C11H26Ni111O16Pt36
+Relaxing C11H23Ni111O15Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C7H16Ni111O8Pt36Relaxing C12H29Ni111O16Pt36
+
+Relaxing C6H34Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H12Ni111O10Pt36
+Creating and evaluating generation 27
+Relaxing C2H8Ni111O2Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing CNi111OPt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H3Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H13Ni111O7Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C7H16Ni111O10Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH7Ni111O2Pt36
+Relaxing C10H27Ni111O16Pt36
+Relaxing C2H12Ni111O4Pt36
+Relaxing C12H23Ni111O17Pt36
+Relaxing C3H3Ni111O4Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing Ni111Pt36
+Relaxing C4H6Ni111O6Pt36
+Relaxing C11H34Ni111O16Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing H6Ni111Pt36
+Relaxing C2H7Ni111O2Pt36
+Relaxing H3Ni111Pt36
+Relaxing H3Ni111Pt36
+Relaxing C6H17Ni111O7Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C6H9Ni111O6Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C10H27Ni111O13Pt36
+Relaxing H2Ni111Pt36
+Relaxing C4H13Ni111O5Pt36
+Relaxing CH12Ni111OPt36
+Relaxing C3H12Ni111O4Pt36
+Relaxing C8H14Ni111O9Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C5H14Ni111O8Pt36
+Relaxing C11H31Ni111O15Pt36
+Relaxing CH6Ni111OPt36
+Relaxing CH8Ni111OPt36
+Relaxing C13H26Ni111O21Pt36
+Relaxing C4H30Ni111O5Pt36
+Relaxing C9H31Ni111O14Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C4H11Ni111O4Pt36
+Creating and evaluating generation 28
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H7Ni111O6Pt36
+Relaxing H4Ni111Pt36
+Relaxing C5H18Ni111O7Pt36
+Relaxing C3H12Ni111O4Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing C6H10Ni111O9Pt36
+Relaxing C2H27Ni111O3Pt36
+Relaxing HNi111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3H14Ni111O6Pt36
+Relaxing Ni111Pt36
+Relaxing C11H23Ni111O15Pt36
+Relaxing C10H25Ni111O16Pt36
+Relaxing C6H28Ni111O9Pt36
+Relaxing C11H31Ni111O15Pt36
+Relaxing CH2Ni111O2Pt36
+Relaxing C12H32Ni111O15Pt36
+Relaxing C4H7Ni111O6Pt36
+Relaxing C5H8Ni111O5Pt36
+Relaxing Ni111Pt36
+Relaxing C10H18Ni111O14Pt36
+Relaxing H6Ni111Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing C5H13Ni111O8Pt36Relaxing C2H5Ni111O3Pt36
+
+Relaxing C13H29Ni111O16Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C2H6Ni111O2Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C7H24Ni111O11Pt36
+Relaxing H2Ni111Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing H3Ni111Pt36
+Relaxing H3Ni111Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C3H8Ni111O5Pt36
+Relaxing H8Ni111Pt36
+Relaxing C11H27Ni111O15Pt36
+Relaxing C5H9Ni111O8Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C2H18Ni111O3Pt36
+Relaxing C10H28Ni111O13Pt36
+Relaxing C3H4Ni111O4Pt36
+Relaxing H2Ni111Pt36
+Relaxing H6Ni111Pt36
+Relaxing C2H25Ni111O3Pt36
+Relaxing C12H31Ni111O15Pt36
+Creating and evaluating generation 29
+Relaxing C11H17Ni111O15Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing CHNi111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CHNi111OPt36
+Relaxing C2H7Ni111O4Pt36
+Relaxing CH6Ni111OPt36
+Relaxing C3H8Ni111O5Pt36
+Relaxing C3H18Ni111O6Pt36
+Relaxing C5H20Ni111O7Pt36
+Relaxing C5H29Ni111O7Pt36
+Relaxing C10H9Ni111O14Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C5H8Ni111O5Pt36
+Relaxing C10H9Ni111O14Pt36
+Relaxing C2H6Ni111O2Pt36
+Relaxing C2H8Ni111O3Pt36
+Relaxing C19H20Ni111O26Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C2H7Ni111O4Pt36
+Relaxing H5Ni111Pt36
+Relaxing C2H25Ni111O3Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C2H7Ni111O4Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C4H14Ni111O5Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing CH3Ni111O2Pt36
+Relaxing C9H14Ni111O13Pt36
+Relaxing CH6Ni111OPt36Relaxing C9H29Ni111O13Pt36
+
+Relaxing C5H12Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C11H17Ni111O15Pt36
+Relaxing C4H11Ni111O3Pt36
+Relaxing C7H26Ni111O10Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C5H10Ni111O9Pt36
+Relaxing C8H14Ni111O9Pt36
+Relaxing C2H5Ni111O3Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing H2Ni111Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C15H20Ni111O21Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C7H14Ni111O8Pt36
+Creating and evaluating generation 30
+Relaxing H5Ni111Pt36
+Relaxing C4H11Ni111O4Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH5Ni111OPt36
+Relaxing CNi111OPt36
+Relaxing CH3Ni111OPt36Relaxing H6Ni111Pt36
+
+Relaxing C3H18Ni111O5Pt36
+Relaxing C5H13Ni111O8Pt36Relaxing Ni111Pt36
+
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H2Ni111Pt36
+Relaxing C6H13Ni111O7Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C8H20Ni111O12Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing HNi111Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C6H16Ni111O8Pt36Relaxing HNi111Pt36
+Relaxing H6Ni111Pt36
+
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH9Ni111OPt36
+Relaxing C12H31Ni111O18Pt36
+Relaxing CH6Ni111OPt36
+Relaxing C5H14Ni111O8Pt36
+Relaxing C3H4Ni111O5Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H9Ni111O7Pt36
+Relaxing C2H6Ni111O2Pt36Relaxing H8Ni111Pt36
+Relaxing C7H17Ni111O7Pt36
+
+Relaxing C6H16Ni111O8Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C9H12Ni111O12Pt36
+Relaxing CH8Ni111OPt36
+Relaxing HNi111Pt36
+Relaxing C16H18Ni111O22Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H9Ni111O6Pt36
+Relaxing C6H36Ni111O8Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C10H7Ni111O13Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing HNi111Pt36
+Relaxing C13H23Ni111O19Pt36
+Relaxing C5H13Ni111O6Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing H2Ni111Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C2H7Ni111O2Pt36
+Relaxing C2H6Ni111O2Pt36
+Creating and evaluating generation 31
+Relaxing C3H23Ni111O4Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C2H5Ni111O3Pt36
+Relaxing C9H12Ni111O13Pt36
+Relaxing CHNi111OPt36
+Relaxing C7H15Ni111O8Pt36
+Relaxing C4H13Ni111O6Pt36
+Relaxing C3H12Ni111O5Pt36
+Relaxing C6H17Ni111O10Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C9H14Ni111O12Pt36
+Relaxing C2H11Ni111O4Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH7Ni111OPt36
+Relaxing C14H36Ni111O17Pt36
+Relaxing C11H22Ni111O19Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C4H8Ni111O7Pt36
+Relaxing C2H8Ni111O4Pt36
+Relaxing C12H32Ni111O15Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C8H15Ni111O9Pt36
+Relaxing C2Ni111O2Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C8H15Ni111O8Pt36
+Relaxing C2H7Ni111O3Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H33Ni111O9Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C7H16Ni111O7Pt36
+Relaxing C16H19Ni111O21Pt36
+Relaxing H8Ni111Pt36
+Relaxing C5H12Ni111O7Pt36
+Relaxing C14H27Ni111O22Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C13H31Ni111O17Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C9H23Ni111O11Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H13Ni111O8Pt36
+Relaxing C2H8Ni111O3Pt36
+Relaxing C3H24Ni111O4Pt36
+Relaxing C10H35Ni111O12Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C13H17Ni111O17Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C9H25Ni111O12Pt36
+Relaxing C10H29Ni111O13Pt36
+Relaxing H5Ni111Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C5H10Ni111O8Pt36
+Relaxing C5H12Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3H7Ni111O4Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C2H7Ni111O2Pt36
+Creating and evaluating generation 32
+Relaxing HNi111Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C3H17Ni111O5Pt36
+Relaxing CH9Ni111OPt36
+Relaxing C3H8Ni111O4Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C2H11Ni111O3Pt36
+Relaxing C4H23Ni111O7Pt36
+Relaxing C6H32Ni111O8Pt36
+Relaxing C7H34Ni111O10Pt36
+Relaxing C5H29Ni111O6Pt36
+Relaxing C8H23Ni111O14Pt36
+Relaxing C15H33Ni111O20Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C7H15Ni111O7Pt36
+Relaxing C9H22Ni111O13Pt36
+Relaxing C7H17Ni111O7Pt36
+Relaxing CH2Ni111O2Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C8H14Ni111O12Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing HNi111Pt36
+Relaxing H3Ni111Pt36
+Relaxing H2Ni111Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing HNi111Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C3H23Ni111O4Pt36Relaxing C10H17Ni111O12Pt36
+
+Relaxing C2H7Ni111O2Pt36
+Relaxing C8H12Ni111O9Pt36
+Relaxing Ni111Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing CNi111OPt36
+Relaxing C7H17Ni111O12Pt36
+Relaxing C4H13Ni111O6Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C5H9Ni111O5Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C7H16Ni111O7Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C3H16Ni111O4Pt36
+Relaxing C3H24Ni111O4Pt36
+Relaxing C3H18Ni111O5Pt36
+Relaxing C12H31Ni111O17Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing CH6Ni111OPt36
+Creating and evaluating generation 33
+Relaxing C5H13Ni111O8Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C12H31Ni111O15Pt36Relaxing C11H17Ni111O15Pt36
+Relaxing C16H18Ni111O22Pt36
+
+Relaxing H2Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CNi111OPt36
+Relaxing C5H11Ni111O8Pt36
+Relaxing CH9Ni111OPt36
+Relaxing H3Ni111Pt36
+Relaxing C4H12Ni111O5Pt36
+Relaxing C5H13Ni111O6Pt36
+Relaxing HNi111Pt36
+Relaxing C12H31Ni111O15Pt36
+Relaxing Ni111Pt36
+Relaxing C12H30Ni111O17Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H8Ni111O7Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C2H11Ni111O4Pt36
+Relaxing C7H12Ni111O7Pt36
+Relaxing C5H16Ni111O8Pt36
+Relaxing C10H33Ni111O14Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3H23Ni111O4Pt36
+Relaxing H3Ni111Pt36
+Relaxing C3H13Ni111O6Pt36
+Relaxing C10H29Ni111O15Pt36
+Relaxing C2H5Ni111O3Pt36
+Relaxing CH6Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH4Ni111OPt36
+Relaxing CH7Ni111OPt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing H7Ni111Pt36
+Relaxing C10H23Ni111O14Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C3H28Ni111O4Pt36
+Relaxing C5H2Ni111O7Pt36
+Relaxing C5H12Ni111O5Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C11H33Ni111O16Pt36
+Relaxing C10H17Ni111O12Pt36
+Relaxing CH6Ni111OPt36
+Relaxing C2H7Ni111O2Pt36
+Relaxing CH6Ni111OPt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C4H23Ni111O5Pt36
+Relaxing H6Ni111Pt36
+Creating and evaluating generation 34
+Relaxing H5Ni111Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C2H9Ni111O2Pt36Relaxing Ni111Pt36
+
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H6Ni111O5Pt36
+Relaxing C4H11Ni111O4Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3H15Ni111O3Pt36
+Relaxing CHNi111OPt36
+Relaxing C5H14Ni111O7Pt36
+Relaxing C4H15Ni111O4Pt36
+Relaxing H2Ni111Pt36
+Relaxing C3H23Ni111O4Pt36Relaxing CH5Ni111OPt36
+Relaxing C8H38Ni111O11Pt36
+
+Relaxing C9H29Ni111O13Pt36
+Relaxing C13H24Ni111O17Pt36
+Relaxing C13H30Ni111O19Pt36
+Relaxing Ni111Pt36
+Relaxing H7Ni111Pt36
+Relaxing H2Ni111Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C4H14Ni111O5Pt36
+Relaxing HNi111Pt36
+Relaxing H3Ni111Pt36
+Relaxing C3H11Ni111O3Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C8H29Ni111O12Pt36
+Relaxing Ni111Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing Ni111Pt36
+Relaxing Ni111Pt36
+Relaxing C6H13Ni111O9Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C7H14Ni111O8Pt36
+Relaxing C10H27Ni111O16Pt36
+Relaxing C3H13Ni111O4Pt36
+Relaxing C3H24Ni111O4Pt36
+Relaxing CH4Ni111OPt36
+Relaxing H6Ni111Pt36
+Relaxing H7Ni111Pt36
+Relaxing CH8Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError:Relaxing C3H5Ni111O5Pt36 'H' is not in list
+
+Relaxing C2H21Ni111O3Pt36
+Relaxing H2Ni111Pt36
+Relaxing C5H15Ni111O8Pt36
+Relaxing HNi111Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing CH8Ni111OPt36
+Creating and evaluating generation 35
+Relaxing C3H15Ni111O3Pt36
+Relaxing Ni111Pt36
+Relaxing CH7Ni111O2Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing Ni111Pt36Relaxing CH4Ni111OPt36
+
+Relaxing C10H27Ni111O13Pt36
+Relaxing CH3Ni111OPt36
+Relaxing C5H20Ni111O7Pt36
+Relaxing C4H3Ni111O6Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing HNi111Pt36Relaxing C3H4Ni111O5Pt36
+
+Relaxing H5Ni111Pt36Relaxing C10H29Ni111O14Pt36
+
+Relaxing C7H15Ni111O7Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C2H5Ni111O2Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C8H14Ni111O9Pt36
+Relaxing C6H13Ni111O7Pt36
+Relaxing CH2Ni111OPt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C2H5Ni111O3Pt36
+Relaxing C3H5Ni111O4Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing HNi111Pt36
+Relaxing C3H4Ni111O4Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing H6Ni111Pt36
+Relaxing C6H9Ni111O6Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H9Ni111O8Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C3H5Ni111O5Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C5H29Ni111O7Pt36
+Relaxing C12H16Ni111O15Pt36
+Relaxing C4H5Ni111O6Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C7H15Ni111O9Pt36
+Relaxing H2Ni111Pt36
+Relaxing C9H29Ni111O13Pt36
+Creating and evaluating generation 36
+Relaxing H3Ni111Pt36
+Relaxing CH3Ni111OPt36
+Relaxing CH2Ni111O2Pt36
+Relaxing H3Ni111Pt36
+Relaxing CH4Ni111OPt36
+Relaxing C2H5Ni111O3Pt36
+Relaxing C3H3Ni111O4Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing CH3Ni111OPt36
+Relaxing C3H15Ni111O3Pt36Relaxing C6H14Ni111O7Pt36
+
+Relaxing C5H28Ni111O7Pt36
+Relaxing CHNi111OPt36
+Relaxing CH2Ni111O2Pt36
+Relaxing Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing C9H28Ni111O13Pt36
+Relaxing C3H3Ni111O5Pt36
+Relaxing C5H19Ni111O7Pt36
+Relaxing HNi111Pt36
+Relaxing HNi111Pt36
+Relaxing C9H15Ni111O11Pt36
+Relaxing C11H31Ni111O15Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C2H10Ni111O2Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing HNi111Pt36
+Relaxing Ni111Pt36
+Relaxing Ni111Pt36
+Relaxing C4H15Ni111O4Pt36
+Relaxing C4H13Ni111O5Pt36
+Relaxing C4H14Ni111O4Pt36
+Relaxing C3H17Ni111O4Pt36
+Relaxing C2H20Ni111O3Pt36
+Relaxing Ni111Pt36
+Relaxing H2Ni111Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C9H29Ni111O12Pt36
+Relaxing H3Ni111Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C3H11Ni111O4Pt36
+Relaxing HNi111Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing H3Ni111Pt36
+Relaxing Ni111Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C3H15Ni111O3Pt36
+Creating and evaluating generation 37
+Relaxing H7Ni111Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing Ni111Pt36
+Relaxing H2Ni111Pt36
+Relaxing C11H10Ni111O15Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C2H11Ni111O3Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C5H21Ni111O5Pt36
+Relaxing C8H20Ni111O8Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C8H12Ni111O10Pt36
+Relaxing CH10Ni111O2Pt36
+Relaxing H3Ni111Pt36
+Relaxing CNi111OPt36
+Relaxing C9H25Ni111O15Pt36
+Relaxing C8H16Ni111O11Pt36
+Relaxing C5H15Ni111O6Pt36
+Relaxing C15H21Ni111O20Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing CH4Ni111OPt36
+Relaxing C6H19Ni111O9Pt36
+Relaxing C6H14Ni111O6Pt36
+Relaxing C2H3Ni111O3Pt36
+Relaxing CH8Ni111O2Pt36
+Relaxing C2H4Ni111O4Pt36
+Relaxing C10H27Ni111O14Pt36
+Relaxing H2Ni111Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing H5Ni111Pt36
+Relaxing H7Ni111Pt36
+Relaxing C4H15Ni111O5Pt36
+Relaxing C10H30Ni111O13Pt36
+Relaxing C7H19Ni111O12Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C11H35Ni111O15Pt36
+Relaxing H8Ni111Pt36
+Relaxing C8H14Ni111O10Pt36
+Relaxing C8H20Ni111O12Pt36
+Relaxing C12H29Ni111O15Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C5H20Ni111O7Pt36
+Relaxing H3Ni111Pt36
+Relaxing C10H36Ni111O15Pt36
+Relaxing C4H24Ni111O6Pt36
+Creating and evaluating generation 38
+Relaxing H7Ni111Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing CH7Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C12H29Ni111O16Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C2H6Ni111O2Pt36
+Relaxing CH8Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H17Ni111O4Pt36
+Relaxing C6H35Ni111O8Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C12H17Ni111O16Pt36
+Relaxing C6H17Ni111O8Pt36
+Relaxing Ni111Pt36
+Relaxing C3H5Ni111O4Pt36
+Relaxing C3H11Ni111O4Pt36
+Relaxing H2Ni111Pt36
+Relaxing C9H36Ni111O13Pt36
+Relaxing Ni111Pt36
+Relaxing C15H31Ni111O25Pt36
+Relaxing C4H14Ni111O6Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H15Ni111O5Pt36
+Relaxing C11H28Ni111O15Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C8H27Ni111O11Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C11H20Ni111O14Pt36Relaxing C2H8Ni111O3Pt36
+
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H6Ni111Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C4H15Ni111O5Pt36
+Relaxing H3Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C13H24Ni111O18Pt36
+Relaxing H5Ni111Pt36
+Relaxing C7H17Ni111O7Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C2H5Ni111O3Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C5H14Ni111O6Pt36
+Relaxing C4H21Ni111O6Pt36
+Relaxing H7Ni111Pt36
+Relaxing C10H36Ni111O14Pt36
+Relaxing C2H7Ni111O3Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C9H20Ni111O11Pt36
+Relaxing H3Ni111Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C11H17Ni111O15Pt36
+Creating and evaluating generation 39
+Relaxing H3Ni111Pt36
+Relaxing C11H20Ni111O14Pt36Relaxing C5H28Ni111O7Pt36
+
+Relaxing C2H6Ni111O3Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3H18Ni111O3Pt36
+Relaxing C3H22Ni111O4Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H10Ni111O6Pt36
+Relaxing C5H12Ni111O6Pt36
+Relaxing C13H29Ni111O21Pt36
+Relaxing C6H12Ni111O8Pt36
+Relaxing C9H26Ni111O12Pt36
+Relaxing C4H7Ni111O5Pt36
+Relaxing C11H27Ni111O14Pt36
+Relaxing C15H20Ni111O20Pt36
+Relaxing H3Ni111Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C7H16Ni111O9Pt36
+Relaxing C2H2Ni111O3Pt36
+Relaxing H3Ni111Pt36
+Relaxing CNi111O2Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C2H4Ni111O2Pt36
+Relaxing C7H16Ni111O11Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing HNi111Pt36
+Relaxing C7H13Ni111O8Pt36
+Relaxing H6Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH7Ni111OPt36
+Relaxing H6Ni111Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing CH2Ni111OPt36
+Relaxing H3Ni111Pt36
+Relaxing C8H18Ni111O12Pt36
+Relaxing C4H15Ni111O5Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C3H8Ni111O5Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C7H15Ni111O7Pt36
+Relaxing H3Ni111Pt36
+Relaxing C2H12Ni111O4Pt36
+Relaxing C5H12Ni111O7Pt36
+Relaxing C3H22Ni111O3Pt36
+Relaxing C6H14Ni111O5Pt36
+Relaxing HNi111Pt36
+Relaxing C12H19Ni111O15Pt36
+Relaxing C3H15Ni111O5Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C3H12Ni111O4Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing HNi111Pt36
+Relaxing H6Ni111Pt36
+Creating and evaluating generation 40
+Relaxing HNi111Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing CH8Ni111OPt36
+Relaxing CH8Ni111OPt36
+Relaxing CNi111OPt36
+Relaxing C3H14Ni111O4Pt36
+Relaxing C6H18Ni111O8Pt36
+Relaxing C4H13Ni111O7Pt36
+Relaxing CNi111O2Pt36
+Relaxing C9H20Ni111O10Pt36
+Relaxing HNi111Pt36
+Relaxing C2H6Ni111O3Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C2H4Ni111O2Pt36
+Relaxing C5H10Ni111O9Pt36
+Relaxing C5H18Ni111O6Pt36
+Relaxing C2H14Ni111O2Pt36
+Relaxing C7H25Ni111O12Pt36
+Relaxing C6H14Ni111O8Pt36
+Relaxing C14H34Ni111O20Pt36
+Relaxing C3H8Ni111O4Pt36
+Relaxing C3H9Ni111O3Pt36
+Relaxing CHNi111O2Pt36
+Relaxing H5Ni111Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing CH7Ni111OPt36
+Relaxing CH3Ni111OPt36
+Relaxing CH7Ni111OPt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing H7Ni111Pt36
+Relaxing C2H10Ni111O2Pt36
+Relaxing H8Ni111Pt36
+Relaxing C3H10Ni111O3Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing H6Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H6Ni111Pt36
+Relaxing C4H15Ni111O5Pt36
+Relaxing C4H32Ni111O5Pt36
+Relaxing H3Ni111Pt36
+Relaxing C4H15Ni111O5Pt36
+Relaxing H7Ni111Pt36
+Relaxing C4H3Ni111O6Pt36
+Relaxing HNi111Pt36
+Relaxing C13H12Ni111O19Pt36
+Relaxing C9H26Ni111O13Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing CH13Ni111O2Pt36
+Creating and evaluating generation 41
+Relaxing C11H17Ni111O15Pt36
+Relaxing H4Ni111Pt36
+Relaxing C3H5Ni111O6Pt36
+Relaxing C5H27Ni111O6Pt36
+Relaxing C3H10Ni111O4Pt36
+Relaxing C4H14Ni111O5Pt36
+Relaxing CHNi111O2Pt36
+Relaxing C9H22Ni111O14Pt36
+Relaxing C7H40Ni111O9Pt36
+Relaxing C10H28Ni111O13Pt36
+Relaxing HNi111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H20Ni111O8Pt36
+Relaxing C11H29Ni111O14Pt36
+Relaxing C12H20Ni111O16Pt36
+Relaxing C2H7Ni111O3Pt36
+Relaxing C2H6Ni111O2Pt36
+Relaxing CH7Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH7Ni111OPt36
+Relaxing H3Ni111Pt36
+Relaxing H6Ni111Pt36
+Relaxing H3Ni111Pt36
+Relaxing C2H5Ni111O2Pt36
+Relaxing C4H23Ni111O5Pt36
+Relaxing H2Ni111Pt36
+Relaxing C4H13Ni111O6Pt36
+Relaxing C2H14Ni111O2Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H34Ni111O8Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C6H13Ni111O9Pt36
+Relaxing C4H7Ni111O6Pt36
+Relaxing C3H9Ni111O5Pt36
+Relaxing C12H31Ni111O15Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C7H25Ni111O10Pt36Relaxing H3Ni111Pt36
+Relaxing CNi111OPt36
+
+Relaxing CH3Ni111OPt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C11H17Ni111O13Pt36
+Relaxing C5H14Ni111O8Pt36Relaxing H5Ni111Pt36
+
+Relaxing C6H34Ni111O8Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C4H15Ni111O5Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H35Ni111O9Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C3H17Ni111O3Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing H8Ni111Pt36
+Relaxing C3H8Ni111O3Pt36
+Creating and evaluating generation 42
+Relaxing H6Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H2Ni111Pt36
+Relaxing H2Ni111Pt36
+Relaxing C5H15Ni111O5Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing H5Ni111Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C7H17Ni111O11Pt36
+Relaxing C9H18Ni111O13Pt36
+Relaxing C4H12Ni111O5Pt36
+Relaxing C5H30Ni111O6Pt36
+Relaxing C8H25Ni111O11Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C7H14Ni111O6Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing H3Ni111Pt36
+Relaxing C4H23Ni111O5Pt36
+Relaxing C6H34Ni111O6Pt36
+Relaxing C5H14Ni111O8Pt36Relaxing C4H11Ni111O5Pt36
+
+Relaxing C4H6Ni111O6Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing H6Ni111Pt36
+Relaxing H6Ni111Pt36
+Relaxing CH2Ni111O2Pt36
+Relaxing CH3Ni111O2Pt36
+Relaxing C13H24Ni111O16Pt36
+Relaxing C6H9Ni111O7Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing CHNi111OPt36
+Relaxing C8H14Ni111O11Pt36
+Relaxing C11H34Ni111O17Pt36
+Relaxing H2Ni111Pt36
+Relaxing H6Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C10H25Ni111O14Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing H2Ni111Pt36
+Relaxing C4H32Ni111O7Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C12H19Ni111O16Pt36
+Relaxing C7H31Ni111O9Pt36
+Relaxing C6H35Ni111O9Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C7H16Ni111O8Pt36
+Creating and evaluating generation 43
+Relaxing Ni111Pt36
+Relaxing C3H7Ni111O3Pt36
+Relaxing C3H9Ni111O3Pt36
+Relaxing C2H7Ni111O3Pt36
+Relaxing C3H9Ni111O3Pt36
+Relaxing C7H16Ni111O10Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C8H16Ni111O10Pt36
+Relaxing C5H19Ni111O7Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C15H22Ni111O20Pt36
+Relaxing C4H28Ni111O5Pt36
+Relaxing H6Ni111Pt36
+Relaxing C3H14Ni111O5Pt36
+Relaxing C9H24Ni111O12Pt36Relaxing C12H31Ni111O15Pt36
+
+Relaxing C8H13Ni111O10Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H18Ni111O8Pt36
+Relaxing CHNi111O2Pt36
+Relaxing C3H17Ni111O3Pt36
+Relaxing C2H5Ni111O2Pt36Relaxing C7H19Ni111O11Pt36
+
+Relaxing H2Ni111Pt36
+Relaxing H4Ni111Pt36
+Relaxing H3Ni111Pt36
+Relaxing H8Ni111Pt36
+Relaxing H7Ni111Pt36
+Relaxing C6H12Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C16H18Ni111O22Pt36
+Relaxing C4H15Ni111O5Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C12H31Ni111O16Pt36
+Relaxing C5H15Ni111O8Pt36
+Relaxing C8H20Ni111O11Pt36
+Relaxing C4H12Ni111O4Pt36
+Relaxing C11H34Ni111O14Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C15H18Ni111O21Pt36
+Relaxing C4H12Ni111O6Pt36
+Relaxing C6H10Ni111O9Pt36
+Relaxing C5H13Ni111O5Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing H2Ni111Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C4H15Ni111O5Pt36
+Relaxing H7Ni111Pt36
+Relaxing C7H14Ni111O8Pt36
+Creating and evaluating generation 44
+Relaxing H3Ni111Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing CNi111O2Pt36
+Relaxing CHNi111O2Pt36
+Relaxing C3H14Ni111O3Pt36
+Relaxing C4H16Ni111O7Pt36
+Relaxing C11H15Ni111O15Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H3Ni111O6Pt36
+Relaxing H6Ni111Pt36
+Relaxing C3H9Ni111O3Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing Ni111Pt36
+Relaxing C14H12Ni111O20Pt36
+Relaxing C6H35Ni111O8Pt36
+Relaxing C5H17Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H37Ni111O9Pt36
+Relaxing C11H16Ni111O16Pt36
+Relaxing C7H16Ni111O9Pt36
+Relaxing HNi111Pt36
+Relaxing C12H20Ni111O15Pt36
+Relaxing CH6Ni111O2Pt36
+Relaxing H5Ni111Pt36
+Relaxing C15H30Ni111O23Pt36
+Relaxing C2H7Ni111O3Pt36
+Relaxing H5Ni111Pt36
+Relaxing C4H10Ni111O5Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C7H13Ni111O8Pt36
+Relaxing C2H7Ni111O3Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C6H35Ni111O9Pt36
+Relaxing C10H26Ni111O13Pt36
+Relaxing H5Ni111Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C2H4Ni111O2Pt36
+Relaxing C6H34Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C7H16Ni111O8Pt36
+Relaxing C4H23Ni111O5Pt36
+Relaxing C8H16Ni111O10Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing HNi111Pt36
+Relaxing C2H4Ni111O3Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH7Ni111OPt36
+Relaxing C3H17Ni111O3Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C7H16Ni111O8Pt36
+Creating and evaluating generation 45
+Relaxing C11H20Ni111O14Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing H8Ni111Pt36
+Relaxing C2Ni111O2Pt36
+Relaxing C6H16Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H13Ni111O4Pt36
+Relaxing C4H7Ni111O4Pt36
+Relaxing C10H15Ni111O12Pt36
+Relaxing C3H3Ni111O4Pt36
+Relaxing C2H13Ni111O2Pt36
+Relaxing C9H14Ni111O13Pt36
+Relaxing C8H22Ni111O8Pt36
+Relaxing C5H29Ni111O7Pt36
+Relaxing C6H11Ni111O9Pt36
+Relaxing C9H19Ni111O13Pt36
+Relaxing C2H11Ni111O2Pt36
+Relaxing H2Ni111Pt36
+Relaxing C3H15Ni111O4Pt36
+Relaxing C11H7Ni111O15Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H6Ni111O4Pt36
+Relaxing C6H17Ni111O8Pt36
+Relaxing C6H19Ni111O7Pt36
+Relaxing C5H27Ni111O6Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing H2Ni111Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C3H13Ni111O3Pt36
+Relaxing C12H31Ni111O15Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing HNi111Pt36
+Relaxing C2H3Ni111O2Pt36
+Relaxing H5Ni111Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing H5Ni111Pt36
+Relaxing C4H11Ni111O6Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing HNi111Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C12H31Ni111O15Pt36
+Relaxing C6H19Ni111O7Pt36
+Relaxing H7Ni111Pt36
+Relaxing C6H25Ni111O9Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C11H30Ni111O14Pt36
+Creating and evaluating generation 46
+Relaxing C3H15Ni111O3Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing H2Ni111Pt36
+Relaxing H3Ni111Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C5H15Ni111O8Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C9H15Ni111O13Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH5Ni111OPt36
+Relaxing C9H17Ni111O11Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C9H13Ni111O11Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing H3Ni111Pt36
+Relaxing C7H25Ni111O9Pt36
+Relaxing C7H35Ni111O10Pt36
+Relaxing C11H29Ni111O16Pt36
+Relaxing CNi111OPt36
+Relaxing C6H28Ni111O8Pt36
+Relaxing C16H30Ni111O25Pt36
+Relaxing CH3Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H11Ni111O3Pt36
+Relaxing C3H15Ni111O6Pt36
+Relaxing CH7Ni111O2Pt36
+Relaxing H7Ni111Pt36
+Relaxing Ni111Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C12H31Ni111O15Pt36
+Relaxing CH3Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH8Ni111OPt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C8H21Ni111O11Pt36
+Relaxing C15H27Ni111O19Pt36
+Relaxing C10H19Ni111O11Pt36
+Relaxing C8H15Ni111O8Pt36
+Relaxing C4H21Ni111O5Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C3H10Ni111O3Pt36
+Relaxing C6H7Ni111O8Pt36
+Relaxing CNi111O2Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing H7Ni111Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing HNi111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H2Ni111Pt36
+Relaxing C5H14Ni111O8Pt36
+Creating and evaluating generation 47
+Relaxing C3H23Ni111O4Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C3H4Ni111O3Pt36
+Relaxing C3H13Ni111O4Pt36
+Relaxing C8H22Ni111O11Pt36
+Relaxing C3H11Ni111O3Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C2H9Ni111O2Pt36
+Relaxing CH8Ni111OPt36
+Relaxing CNi111O2Pt36
+Relaxing C3H17Ni111O5Pt36
+Relaxing C8H12Ni111O11Pt36
+Relaxing C3H5Ni111O5Pt36
+Relaxing H6Ni111Pt36
+Relaxing C11H23Ni111O17Pt36
+Relaxing H5Ni111Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C6H37Ni111O9Pt36
+Relaxing H5Ni111Pt36
+Relaxing H8Ni111Pt36
+Relaxing C13H29Ni111O17Pt36
+Relaxing C16H30Ni111O25Pt36
+Relaxing C4H3Ni111O5Pt36
+Relaxing C2H2Ni111O3Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C3H13Ni111O5Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C11H25Ni111O14Pt36
+Relaxing C4H15Ni111O5Pt36
+Relaxing C6H35Ni111O8Pt36
+Relaxing C2H4Ni111O3Pt36
+Relaxing C10H30Ni111O13Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing C7H14Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH7Ni111OPt36
+Relaxing H2Ni111Pt36
+Relaxing C13H36Ni111O17Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C8H14Ni111O10Pt36
+Relaxing C2H10Ni111O2Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C11H20Ni111O14Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C16H29Ni111O25Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C7H11Ni111O9Pt36
+Relaxing C2H10Ni111O2Pt36
+Relaxing C11H20Ni111O15Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C7H16Ni111O8Pt36
+Creating and evaluating generation 48
+Relaxing C3H15Ni111O3Pt36
+Relaxing C16H18Ni111O22Pt36Relaxing C13H27Ni111O21Pt36
+
+Relaxing Ni111Pt36
+Relaxing Ni111Pt36
+Relaxing C3H11Ni111O4Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing CH13Ni111OPt36
+Relaxing C3H7Ni111O4Pt36
+Relaxing C2H3Ni111O2Pt36
+Relaxing C6H11Ni111O9Pt36
+Relaxing C4H12Ni111O6Pt36Relaxing C7H14Ni111O8Pt36
+
+Relaxing H2Ni111Pt36
+Relaxing C7H16Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H28Ni111O7Pt36
+Relaxing C10H24Ni111O13Pt36
+Relaxing C6H28Ni111O8Pt36
+Relaxing C3H11Ni111O3Pt36
+Relaxing C3H11Ni111O3Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C5H21Ni111O6Pt36
+Relaxing C5H15Ni111O7Pt36
+Relaxing C3H11Ni111O3Pt36
+Relaxing H8Ni111Pt36
+Relaxing H6Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C7H15Ni111O7Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C7H16Ni111O8Pt36
+Relaxing H2Ni111Pt36
+Relaxing CHNi111O2Pt36
+Relaxing CH3Ni111OPt36
+Relaxing C10H29Ni111O14Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing H2Ni111Pt36
+Relaxing C5H15Ni111O6Pt36
+Relaxing CH10Ni111OPt36
+Relaxing H5Ni111Pt36
+Relaxing H7Ni111Pt36
+Relaxing H2Ni111Pt36
+Relaxing CNi111OPt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing H2Ni111Pt36
+Relaxing C3H15Ni111O3Pt36
+Creating and evaluating generation 49
+Relaxing HNi111Pt36
+Relaxing H5Ni111Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing H3Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing CH8Ni111OPt36
+Relaxing H2Ni111Pt36
+Relaxing C5H11Ni111O5Pt36
+Relaxing C11H10Ni111O16Pt36
+Relaxing C5H2Ni111O6Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C5H6Ni111O6Pt36
+Relaxing C4H16Ni111O5Pt36
+Relaxing C4H4Ni111O8Pt36
+Relaxing HNi111Pt36Relaxing C6H34Ni111O8Pt36
+
+Relaxing C11H23Ni111O18Pt36
+Relaxing C5H11Ni111O6Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing H8Ni111Pt36
+Relaxing H5Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing C2H9Ni111O3Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H23Ni111O8Pt36
+Relaxing C2H8Ni111O3Pt36
+Relaxing HNi111Pt36
+Relaxing C4H13Ni111O6Pt36Relaxing CH7Ni111OPt36
+
+Relaxing C16H18Ni111O22Pt36Relaxing C5H8Ni111O9Pt36
+
+Relaxing C11H17Ni111O15Pt36
+Relaxing C5H10Ni111O8Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing H6Ni111Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing H6Ni111Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing CH7Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H3Ni111Pt36
+Relaxing C12H31Ni111O15Pt36
+Relaxing H6Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing H3Ni111Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing H6Ni111Pt36
+Creating and evaluating generation 50
+Relaxing C3H23Ni111O4Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C5H9Ni111O5Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H2Ni111Pt36
+Relaxing H8Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C7H16Ni111O8Pt36
+Relaxing C7H17Ni111O7Pt36
+Relaxing CH10Ni111OPt36Relaxing C6H18Ni111O8Pt36
+
+Relaxing H14Ni111Pt36
+Relaxing C8H16Ni111O12Pt36
+Relaxing C7H25Ni111O10Pt36
+Relaxing C2H9Ni111O2Pt36Relaxing C6H36Ni111O8Pt36
+
+Relaxing CH7Ni111O2Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C11H22Ni111O17Pt36
+Relaxing C5H22Ni111O7Pt36
+Relaxing H3Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H29Ni111O5Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C5H21Ni111O7Pt36
+Relaxing C13H29Ni111O21Pt36
+Relaxing C4H22Ni111O6Pt36
+Relaxing C3H7Ni111O3Pt36
+Relaxing C15H18Ni111O21Pt36
+Relaxing C2H5Ni111O2Pt36
+Relaxing C10H26Ni111O13Pt36
+Relaxing C11H18Ni111O14Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C11H22Ni111O17Pt36
+Relaxing H3Ni111Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C2H7Ni111O2Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3H23Ni111O3Pt36Relaxing C6H18Ni111O9Pt36
+
+Relaxing C4H28Ni111O5Pt36
+Relaxing C5H14Ni111O7Pt36
+Relaxing C8H16Ni111O9Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C2H20Ni111O3Pt36
+Relaxing CH4Ni111OPt36
+Relaxing C7H17Ni111O10Pt36
+Relaxing C5H11Ni111O7Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing CH6Ni111O2Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing H2Ni111Pt36
+Creating and evaluating generation 51
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing HNi111Pt36
+Relaxing H3Ni111Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing CH6Ni111OPt36
+Relaxing C2H12Ni111O2Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C6H10Ni111O7Pt36
+Relaxing C7H34Ni111O10Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing HNi111Pt36
+Relaxing CH6Ni111OPt36
+Relaxing C2H3Ni111O2Pt36
+Relaxing C3H13Ni111O3Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing CH5Ni111OPt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C6H16Ni111O7Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C2H10Ni111O4Pt36
+Relaxing C7H13Ni111O8Pt36
+Relaxing C3H12Ni111O3Pt36
+Relaxing C3H14Ni111O3Pt36
+Relaxing CH10Ni111O2Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C9H11Ni111O12Pt36
+Relaxing H3Ni111Pt36
+Relaxing C3H5Ni111O5Pt36
+Relaxing C5H29Ni111O7Pt36
+Relaxing C6H14Ni111O7Pt36
+Relaxing C6H8Ni111O6Pt36
+Relaxing HNi111Pt36
+Relaxing C11H29Ni111O14Pt36
+Relaxing C2H12Ni111O3Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C5H11Ni111O8Pt36
+Relaxing H7Ni111Pt36
+Relaxing C10H17Ni111O11Pt36
+Relaxing H2Ni111Pt36
+Relaxing C6H19Ni111O8Pt36
+Relaxing C10H7Ni111O14Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing H6Ni111Pt36
+Relaxing C11H34Ni111O17Pt36
+Relaxing C11H30Ni111O14Pt36
+Relaxing H7Ni111Pt36
+Relaxing C12H31Ni111O15Pt36
+Relaxing C6H16Ni111O8Pt36
+Creating and evaluating generation 52
+Relaxing C2H12Ni111O3Pt36
+Relaxing CH2Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H13Ni111O5Pt36
+Relaxing H2Ni111Pt36
+Relaxing C2H7Ni111O3Pt36
+Relaxing H2Ni111Pt36
+Relaxing C5H14Ni111O8Pt36
+Relaxing C4H12Ni111O4Pt36
+Relaxing C7H15Ni111O8Pt36
+Relaxing C6H33Ni111O8Pt36
+Relaxing C2H12Ni111O3Pt36
+Relaxing HNi111Pt36
+Relaxing C2H11Ni111O2Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C9H26Ni111O14Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing H6Ni111Pt36
+Relaxing H3Ni111Pt36
+Relaxing C14H35Ni111O18Pt36
+Relaxing C6H11Ni111O8Pt36
+Relaxing C9H24Ni111O12Pt36
+Relaxing C5H19Ni111O5Pt36
+Relaxing H6Ni111Pt36
+Relaxing C4H13Ni111O4Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C12H31Ni111O15Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C9H36Ni111O13Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C10H32Ni111O13Pt36Relaxing C10H27Ni111O13Pt36
+
+Relaxing C12H31Ni111O15Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing HNi111Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C9H12Ni111O12Pt36
+Relaxing C9H20Ni111O9Pt36
+Relaxing C6H35Ni111O9Pt36
+Relaxing CH8Ni111OPt36[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing HNi111Pt36
+
+Relaxing C5H25Ni111O7Pt36
+Relaxing C13H29Ni111O18Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C11H13Ni111O15Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C11H20Ni111O14Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H15Ni111O5Pt36
+Creating and evaluating generation 53
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H2Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH3Ni111OPt36
+Relaxing HNi111Pt36
+Relaxing H3Ni111Pt36
+Relaxing H2Ni111Pt36
+Relaxing C3H12Ni111O3Pt36
+Relaxing H7Ni111Pt36
+Relaxing C10H26Ni111O13Pt36
+Relaxing H2Ni111Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C4H12Ni111O6Pt36
+Relaxing C4H32Ni111O7Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing CH7Ni111OPt36Relaxing C3H9Ni111O3Pt36
+
+Relaxing HNi111Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C11H26Ni111O17Pt36
+Relaxing C3H9Ni111O3Pt36
+Relaxing C10H33Ni111O18Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H23Ni111O9Pt36
+Relaxing C2H10Ni111O4Pt36
+Relaxing C10H20Ni111O12Pt36
+Relaxing C3H2Ni111O4Pt36
+Relaxing CH6Ni111OPt36
+Relaxing C3H15Ni111O3Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H7Ni111Pt36
+Relaxing C12H36Ni111O16Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C13H31Ni111O17Pt36
+Relaxing C3H8Ni111O3Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C2H11Ni111O2Pt36
+Relaxing C7H16Ni111O10Pt36
+Relaxing C12H24Ni111O15Pt36
+Relaxing H2Ni111Pt36
+Relaxing C9H19Ni111O13Pt36
+Relaxing C2H12Ni111O3Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C6H35Ni111O9Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing CH6Ni111OPt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing H6Ni111Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C9H29Ni111O13Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C2H12Ni111O2Pt36
+Relaxing H5Ni111Pt36
+Creating and evaluating generation 54
+Relaxing C3H23Ni111O4Pt36
+Relaxing C12H31Ni111O15Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C2H5Ni111O2Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3H7Ni111O4Pt36
+Relaxing C4H9Ni111O4Pt36
+Relaxing CH7Ni111O2Pt36
+Relaxing C2H12Ni111O3Pt36
+Relaxing CH5Ni111OPt36Relaxing C12H29Ni111O16Pt36
+
+Relaxing C6H34Ni111O8Pt36
+Relaxing CHNi111O2Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C10H13Ni111O12Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing CH6Ni111OPt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C7H13Ni111O8Pt36
+Relaxing C11H24Ni111O15Pt36Relaxing C2H5Ni111O3Pt36
+
+Relaxing C9H31Ni111O12Pt36
+Relaxing C3H11Ni111O3Pt36
+Relaxing C8H40Ni111O12Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing CH6Ni111OPt36
+Relaxing HNi111Pt36
+Relaxing C6H9Ni111O6Pt36Relaxing C5H28Ni111O7Pt36
+
+Relaxing C10H18Ni111O12Pt36
+Relaxing H10Ni111Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C4H29Ni111O5Pt36
+Relaxing Ni111Pt36
+Relaxing C2H4Ni111O3Pt36
+Relaxing C2H9Ni111O3Pt36
+Relaxing C8H20Ni111O12Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing H6Ni111Pt36
+Relaxing H3Ni111Pt36
+Relaxing C3H11Ni111O3Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C9H26Ni111O14Pt36
+Relaxing C5H16Ni111O7Pt36
+Relaxing H2Ni111Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing H2Ni111Pt36
+Relaxing C6H35Ni111O9Pt36
+Relaxing C3H23Ni111O4Pt36
+Creating and evaluating generation 55
+Relaxing H6Ni111Pt36
+Relaxing C3H11Ni111O3Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing H2Ni111Pt36
+Relaxing Ni111Pt36
+Relaxing C2H10Ni111O3Pt36
+Relaxing C2H9Ni111O3Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C9H23Ni111O12Pt36
+Relaxing HNi111Pt36
+Relaxing C8H30Ni111O12Pt36
+Relaxing C2H29Ni111O3Pt36
+Relaxing C8H32Ni111O13Pt36
+Relaxing C3H8Ni111O3Pt36
+Relaxing C10H22Ni111O13Pt36
+Relaxing C10H26Ni111O15Pt36
+Relaxing C4H29Ni111O6Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H13Ni111O9Pt36
+Relaxing CH4Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3H23Ni111O4Pt36
+Relaxing C3H15Ni111O3Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C2H12Ni111O3Pt36
+Relaxing C2H4Ni111O2Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C8H23Ni111O11Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C3H25Ni111O4Pt36
+Relaxing C14H27Ni111O22Pt36
+Relaxing C11H17Ni111O15Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C7H15Ni111O7Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH7Ni111OPt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C2H5Ni111O3Pt36
+Relaxing C6H13Ni111O9Pt36
+Relaxing C3H29Ni111O4Pt36
+Relaxing C8H15Ni111O8Pt36
+Relaxing C6H15Ni111O7Pt36
+Relaxing C10H17Ni111O15Pt36
+Relaxing Ni111Pt36
+Relaxing C2H4Ni111O2Pt36
+Relaxing C6H26Ni111O9Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C5H20Ni111O7Pt36
+Relaxing C9H21Ni111O11Pt36
+Relaxing HNi111Pt36
+Relaxing C12H31Ni111O15Pt36
+Creating and evaluating generation 56
+Relaxing H2Ni111Pt36
+Relaxing H6Ni111Pt36
+Relaxing C3H15Ni111O3Pt36Relaxing C7H15Ni111O7Pt36
+
+Relaxing C13H27Ni111O21Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing H8Ni111Pt36
+Relaxing CH3Ni111O2Pt36
+Relaxing CH2Ni111OPt36
+Relaxing H3Ni111Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C9H24Ni111O12Pt36
+Relaxing CNi111OPt36
+Relaxing C9H17Ni111O12Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing CH3Ni111OPt36
+Relaxing CH8Ni111OPt36
+Relaxing C4H22Ni111O6Pt36
+Relaxing HNi111Pt36
+Relaxing C8H16Ni111O10Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C4H11Ni111O5Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing H2Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH9Ni111OPt36
+Relaxing C14H22Ni111O18Pt36
+Relaxing C6H14Ni111O5Pt36
+Relaxing C4H11Ni111O5Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C7H25Ni111O10Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing Ni111Pt36
+Relaxing C8H15Ni111O8Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing C4H13Ni111O6Pt36
+Relaxing H2Ni111Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing H6Ni111Pt36
+Relaxing H5Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C3H9Ni111O3Pt36
+Relaxing H8Ni111Pt36
+Relaxing C3H11Ni111O3Pt36
+Relaxing C6H9Ni111O7Pt36
+Relaxing C4H16Ni111O6Pt36
+Relaxing C5H20Ni111O6Pt36
+Relaxing C6H34Ni111O8Pt36
+Relaxing CHNi111O2Pt36
+Relaxing HNi111Pt36
+Creating and evaluating generation 57
+Relaxing CH7Ni111OPt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing HNi111Pt36
+Relaxing C3H8Ni111O3Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C2H7Ni111O2Pt36
+Relaxing C3H16Ni111O5Pt36
+Relaxing H6Ni111Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C7H10Ni111O10Pt36
+Relaxing C2H10Ni111O4Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C9H19Ni111O11Pt36
+Relaxing C9H21Ni111O12Pt36
+Relaxing C5H5Ni111O6Pt36
+Relaxing C3H25Ni111O4Pt36
+Relaxing C4H10Ni111O4Pt36
+Relaxing C7H11Ni111O8Pt36
+Relaxing C9H31Ni111O12Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C8H14Ni111O9Pt36Relaxing C13H31Ni111O18Pt36
+
+Relaxing H3Ni111Pt36
+Relaxing C6H16Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C2H9Ni111O2Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H8Ni111Pt36
+Relaxing CH5Ni111O2Pt36
+Relaxing C7H15Ni111O8Pt36
+Relaxing H3Ni111Pt36
+Relaxing C6H18Ni111O9Pt36
+Relaxing C5H27Ni111O6Pt36Relaxing HNi111Pt36
+
+Relaxing C6H19Ni111O7Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C4H10Ni111O6Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C5H13Ni111O8Pt36Relaxing C8H30Ni111O12Pt36
+
+Relaxing C5H21Ni111O7Pt36
+Relaxing C5H14Ni111O7Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing CH11Ni111OPt36
+Relaxing C2H18Ni111O3Pt36
+Relaxing C3H11Ni111O3Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C4H19Ni111O5Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C3H11Ni111O3Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C4H12Ni111O6Pt36
+Creating and evaluating generation 58
+Relaxing C11H17Ni111O15Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH6Ni111OPt36
+Relaxing CH7Ni111OPt36
+Relaxing H2Ni111Pt36
+Relaxing H5Ni111Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C4H14Ni111O5Pt36
+Relaxing C4H23Ni111O5Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C8H8Ni111O11Pt36
+Relaxing C16H18Ni111O23Pt36
+Relaxing C2H7Ni111O3Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C2H3Ni111O2Pt36
+Relaxing C4H29Ni111O5Pt36
+Relaxing HNi111Pt36
+Relaxing H5Ni111Pt36
+Relaxing CH4Ni111OPt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing CH3Ni111OPt36
+Relaxing C19H20Ni111O27Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C13H36Ni111O18Pt36
+Relaxing HNi111Pt36
+Relaxing C2H3Ni111O3Pt36
+Relaxing C2H4Ni111O2Pt36
+Relaxing C8H24Ni111O12Pt36
+Relaxing CH5Ni111OPt36
+Relaxing Ni111Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C5H9Ni111O7Pt36Relaxing Ni111Pt36
+Relaxing C11H20Ni111O14Pt36
+
+Relaxing C4H9Ni111O5Pt36
+Relaxing C3H15Ni111O4Pt36
+Relaxing C10H32Ni111O16Pt36
+Relaxing H4Ni111Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C8H15Ni111O10Pt36
+Relaxing H5Ni111Pt36
+Relaxing H6Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH5Ni111OPt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C6H13Ni111O10Pt36
+Relaxing H3Ni111Pt36
+Relaxing C4H5Ni111O5Pt36
+Relaxing C4H11Ni111O5Pt36
+Relaxing C7H16Ni111O8Pt36
+Creating and evaluating generation 59
+Relaxing C3H11Ni111O3Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C12H29Ni111O16Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H12Ni111O5Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C11H20Ni111O14Pt36
+Relaxing C2H11Ni111O3Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing CH5Ni111O2Pt36
+Relaxing C3H11Ni111O4Pt36
+Relaxing H6Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing HNi111Pt36
+Relaxing C3H11Ni111O3Pt36
+Relaxing C4H25Ni111O6Pt36
+Relaxing C11H22Ni111O14Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H2Ni111Pt36
+Relaxing C8H38Ni111O11Pt36
+Relaxing H3Ni111Pt36
+Relaxing C9H9Ni111O12Pt36
+Relaxing H2Ni111Pt36
+Relaxing C2H13Ni111O3Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing Ni111Pt36
+Relaxing C3H5Ni111O3Pt36
+Relaxing H6Ni111Pt36
+Relaxing H10Ni111O2Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing H5Ni111Pt36
+Relaxing CH9Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing HNi111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H15Ni111O7Pt36
+Relaxing C11H18Ni111O15Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C2H8Ni111O2Pt36
+Relaxing C13H29Ni111O18Pt36
+Relaxing CH8Ni111OPt36
+Relaxing CH3Ni111OPt36
+Relaxing C12H31Ni111O15Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C3H11Ni111O3Pt36
+Relaxing HNi111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3H11Ni111O3Pt36
+Relaxing C2H11Ni111O4Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C4H12Ni111O7Pt36
+Relaxing H6Ni111Pt36
+Relaxing CHNi111OPt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C13H27Ni111O21Pt36
+Creating and evaluating generation 60
+Relaxing CH7Ni111OPt36
+Relaxing H3Ni111Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing Ni111Pt36
+Relaxing CH10Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH6Ni111OPt36
+Relaxing C6H15Ni111O6Pt36
+Relaxing C9H17Ni111O13Pt36
+Relaxing C2H9Ni111O3Pt36
+Relaxing C3H12Ni111O4Pt36
+Relaxing C6H4Ni111O7Pt36
+Relaxing HNi111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C10H24Ni111O15Pt36
+Relaxing H2Ni111Pt36
+Relaxing C2H2Ni111O3Pt36
+Relaxing C6H11Ni111O9Pt36
+Relaxing C14H27Ni111O22Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing HNi111Pt36
+Relaxing C2Ni111O4Pt36
+Relaxing C6H14Ni111O6Pt36
+Relaxing C8H30Ni111O12Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing CH9Ni111OPt36
+Relaxing C3H11Ni111O5Pt36
+Relaxing C4H12Ni111O4Pt36
+Relaxing C14H27Ni111O18Pt36
+Relaxing C10H12Ni111O13Pt36
+Relaxing Ni111Pt36
+Relaxing C6H7Ni111O8Pt36
+Relaxing C12H31Ni111O15Pt36
+Relaxing HNi111Pt36
+Relaxing C14H14Ni111O19Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C2H13Ni111O3Pt36
+Relaxing C4H4Ni111O5Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C6H15Ni111O8Pt36
+Relaxing C12H27Ni111O16Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C4H14Ni111O7Pt36
+Relaxing C12H24Ni111O17Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH7Ni111OPt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C4H12Ni111O7Pt36
+Relaxing C2H15Ni111O3Pt36
+Relaxing H7Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3H11Ni111O4Pt36
+Relaxing C2H12Ni111O3Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing CNi111O2Pt36
+Creating and evaluating generation 61
+Relaxing C2H13Ni111O3Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C2H10Ni111O2Pt36
+Relaxing C6H15Ni111O9Pt36
+Relaxing CH4Ni111OPt36
+Relaxing C9H21Ni111O11Pt36
+Relaxing C4H18Ni111O5Pt36
+Relaxing C7H30Ni111O9Pt36
+Relaxing C6H23Ni111O9Pt36
+Relaxing C13H26Ni111O17Pt36
+Relaxing C3H8Ni111O4Pt36
+Relaxing C13H27Ni111O18Pt36
+Relaxing C3H10Ni111O3Pt36
+Relaxing H6Ni111Pt36
+Relaxing C13H27Ni111O21Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C6H10Ni111O6Pt36
+Relaxing C2H5Ni111O2Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C2H8Ni111O3Pt36
+Relaxing CHNi111O2Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing CH10Ni111OPt36
+Relaxing H2Ni111Pt36
+Relaxing H3Ni111Pt36
+Relaxing H7Ni111Pt36Relaxing C2H11Ni111O2Pt36
+
+Relaxing CH7Ni111OPt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H19Ni111O6Pt36
+Relaxing CH9Ni111OPt36
+Relaxing C8H30Ni111O12Pt36
+Relaxing C8H30Ni111O12Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H2Ni111Pt36
+Relaxing C2H5Ni111O2Pt36
+Relaxing H4Ni111Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C8H32Ni111O12Pt36
+Relaxing C6H25Ni111O9Pt36
+Relaxing C10H16Ni111O11Pt36
+Relaxing CH9Ni111OPt36
+Relaxing H6Ni111Pt36
+Relaxing C9H9Ni111O12Pt36
+Relaxing C9H20Ni111O11Pt36
+Relaxing C9H26Ni111O13Pt36
+Relaxing C9H12Ni111O11Pt36
+Relaxing C11H20Ni111O12Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C8H30Ni111O12Pt36
+Relaxing C6H34Ni111O8Pt36
+Creating and evaluating generation 62
+Relaxing H3Ni111Pt36
+Relaxing H5Ni111Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C8H30Ni111O12Pt36
+Relaxing H8Ni111Pt36
+Relaxing C5H12Ni111O8Pt36
+Relaxing H7Ni111Pt36
+Relaxing C3H14Ni111O4Pt36
+Relaxing C3H8Ni111O5Pt36
+Relaxing C5H18Ni111O7Pt36
+Relaxing HNi111Pt36
+Relaxing HNi111Pt36
+Relaxing C7H32Ni111O11Pt36
+Relaxing C5H27Ni111O7Pt36
+Relaxing C10H24Ni111O15Pt36
+Relaxing C2H12Ni111O2Pt36
+Relaxing C9H16Ni111O11Pt36
+Relaxing C9H19Ni111O9Pt36
+Relaxing C6H16Ni111O8Pt36
+Relaxing C10H17Ni111O11Pt36
+Relaxing C3H11Ni111O4Pt36
+Relaxing C8H20Ni111O10Pt36
+Relaxing C5H20Ni111O8Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C2H15Ni111O3Pt36
+Relaxing C5H14Ni111O8Pt36
+Relaxing C2H11Ni111O3Pt36
+Relaxing H3Ni111Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing CH3Ni111OPt36
+Relaxing C2H12Ni111O3Pt36
+Relaxing HNi111Pt36
+Relaxing HNi111Pt36
+Relaxing H2Ni111Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C15H18Ni111O21Pt36
+Relaxing C10H24Ni111O13Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C4H21Ni111O4Pt36
+Relaxing C8H30Ni111O12Pt36
+Relaxing C8H30Ni111O12Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C9H11Ni111O13Pt36
+Relaxing CH8Ni111OPt36
+Relaxing H6Ni111Pt36
+Relaxing H2Ni111Pt36
+Relaxing C2H15Ni111O3Pt36
+Relaxing C5H15Ni111O7Pt36
+Relaxing C7H15Ni111O7Pt36
+Creating and evaluating generation 63
+Relaxing H6Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3HNi111O4Pt36
+Relaxing H7Ni111Pt36
+Relaxing C4H4Ni111O6Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C4H13Ni111O7Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C7H34Ni111O10Pt36
+Relaxing C2H12Ni111O3Pt36
+Relaxing C6H15Ni111O7Pt36
+Relaxing C11H21Ni111O14Pt36
+Relaxing C5H11Ni111O7Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C12H31Ni111O16Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C3H13Ni111O5Pt36
+Relaxing Ni111Pt36
+Relaxing C6H14Ni111O7Pt36
+Relaxing C8H17Ni111O12Pt36
+Relaxing CH4Ni111O2Pt36
+Relaxing C7H16Ni111O8Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H5Ni111O9Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH8Ni111OPt36
+Relaxing C5H15Ni111O8Pt36
+Relaxing C8H15Ni111O10Pt36
+Relaxing C11H19Ni111O15Pt36
+Relaxing C8H31Ni111O12Pt36
+Relaxing C6H32Ni111O9Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing H2Ni111Pt36
+Relaxing Ni111Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing H3Ni111Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing H2Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H9Ni111Pt36
+Relaxing C8H30Ni111O12Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C6H20Ni111O8Pt36
+Relaxing C7H17Ni111O7Pt36
+Relaxing C5H5Ni111O6Pt36
+Relaxing C2H7Ni111O2Pt36
+Relaxing C2H9Ni111O3Pt36
+Relaxing H2Ni111Pt36
+Relaxing C7H10Ni111O10Pt36
+Relaxing C14H25Ni111O23Pt36
+Relaxing C3H11Ni111O3Pt36
+Relaxing C7H9Ni111O7Pt36
+Relaxing H3Ni111Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C7H8Ni111O7Pt36
+Creating and evaluating generation 64
+Relaxing C3H16Ni111O3Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing CH7Ni111OPt36
+Relaxing H8Ni111Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C2H5Ni111O3Pt36
+Relaxing C3H11Ni111O4Pt36
+Relaxing CH10Ni111OPt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C6H13Ni111O8Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C3H25Ni111O5Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C3H9Ni111O3Pt36
+Relaxing C2H4Ni111O2Pt36
+Relaxing Ni111Pt36
+Relaxing C6H23Ni111O9Pt36
+Relaxing C7H25Ni111O11Pt36
+Relaxing C4H15Ni111O6Pt36
+Relaxing CH11Ni111O2Pt36
+Relaxing C8H11Ni111O9Pt36
+Relaxing C8H30Ni111O12Pt36
+Relaxing C10H7Ni111O14Pt36
+[SafeMoveAdsorbate] caught ValueError:Relaxing C4H30Ni111O5Pt36
+ 'H' is not in list
+Relaxing C2H7Ni111O3Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing H7Ni111Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing H2Ni111Pt36
+Relaxing C6H9Ni111O7Pt36
+Relaxing C2H2Ni111O3Pt36
+Relaxing C7H17Ni111O7Pt36
+Relaxing CH8Ni111OPt36
+Relaxing CH2Ni111OPt36
+Relaxing H7Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C2H13Ni111O3Pt36
+Relaxing C5H22Ni111O7Pt36
+Relaxing C3H11Ni111O3Pt36
+Relaxing C8H31Ni111O12Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C8H30Ni111O12Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C2H15Ni111O3Pt36
+Relaxing H3Ni111Pt36
+Relaxing C8H30Ni111O12Pt36
+Relaxing H6Ni111Pt36
+Relaxing H6Ni111Pt36
+Relaxing C11H20Ni111O14Pt36
+Relaxing C4H12Ni111O7Pt36
+Relaxing C2H13Ni111O3Pt36
+Creating and evaluating generation 65
+Relaxing CH8Ni111OPt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing Ni111Pt36
+Relaxing H2Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing CH3Ni111OPt36
+Relaxing HNi111Pt36
+Relaxing C11H18Ni111O18Pt36
+Relaxing C2H12Ni111O2Pt36
+Relaxing C8H20Ni111O12Pt36
+Relaxing C2H7Ni111O3Pt36
+Relaxing C4H21Ni111O5Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C5H21Ni111O7Pt36
+Relaxing H5Ni111Pt36
+Relaxing Ni111Pt36
+Relaxing C15H18Ni111O21Pt36
+Relaxing C12H31Ni111O15Pt36
+Relaxing H3Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError:Relaxing C2H9Ni111O2Pt36
+ 'H' is not in list
+Relaxing C8H39Ni111O11Pt36
+Relaxing C5H20Ni111O7Pt36
+Relaxing C2H13Ni111O3Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C3H23Ni111O4Pt36
+Relaxing C2H14Ni111O3Pt36
+Relaxing C3H11Ni111O5Pt36
+Relaxing C3H11Ni111O3Pt36
+Relaxing H7Ni111Pt36
+Relaxing Ni111Pt36
+Relaxing C8H30Ni111O12Pt36
+Relaxing CH7Ni111OPt36
+Relaxing C4H8Ni111O5Pt36
+Relaxing CH2Ni111OPt36
+Relaxing C10H21Ni111O13Pt36
+Relaxing C3H8Ni111O5Pt36
+Relaxing H7Ni111Pt36
+Relaxing C2H18Ni111O3Pt36
+Relaxing CH7Ni111OPt36
+Relaxing H6Ni111Pt36
+Relaxing C10H20Ni111O12Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C12H29Ni111O16Pt36
+Relaxing C9H21Ni111O11Pt36
+Relaxing C7H40Ni111O10Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing C5H28Ni111O7Pt36
+Relaxing C8H30Ni111O12Pt36
+Relaxing C12H31Ni111O15Pt36
+Relaxing C7H15Ni111O7Pt36
+Creating and evaluating generation 66
+Relaxing C5H13Ni111O8Pt36
+Relaxing H4Ni111Pt36
+Relaxing C5H8Ni111O5Pt36
+Relaxing C2H14Ni111O2Pt36
+Relaxing C9H14Ni111O12Pt36
+Relaxing C11H10Ni111O17Pt36
+Relaxing C9H17Ni111O12Pt36
+Relaxing C6H10Ni111O7Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C12H23Ni111O20Pt36
+Relaxing Ni111Pt36
+Relaxing H6Ni111Pt36
+Relaxing C4H11Ni111O5Pt36
+Relaxing CH7Ni111OPt36Relaxing C8H15Ni111O10Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H27Ni111O6Pt36
+
+Relaxing C6H20Ni111O8Pt36
+Relaxing CH9Ni111OPt36
+Relaxing H2Ni111Pt36
+Relaxing C7H16Ni111O8Pt36
+Relaxing C5H29Ni111O7Pt36
+Relaxing C9H14Ni111O12Pt36
+Relaxing C5H11Ni111O5Pt36
+Relaxing C8H30Ni111O12Pt36
+Relaxing C5H14Ni111O6Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C9H17Ni111O14Pt36
+Relaxing C12H10Ni111O18Pt36
+Relaxing H3Ni111Pt36
+Relaxing C5H14Ni111O7Pt36
+Relaxing C6H35Ni111O8Pt36
+Relaxing C3H14Ni111O4Pt36
+Relaxing C3H12Ni111O4Pt36
+Relaxing C2H7Ni111O2Pt36
+Relaxing C12H16Ni111O16Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C6H13Ni111O9Pt36
+Relaxing CH11Ni111O2Pt36
+Relaxing H4Ni111Pt36
+Relaxing C4H22Ni111O6Pt36
+Relaxing H3Ni111Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C4H14Ni111O7Pt36
+Relaxing C9H26Ni111O12Pt36
+Relaxing H8Ni111Pt36
+Relaxing C5H13Ni111O8Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C2H3Ni111O2Pt36
+Relaxing C16H18Ni111O22Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing C2H2Ni111O3Pt36
+Creating and evaluating generation 67
+Relaxing C3H16Ni111O3Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C11H17Ni111O15Pt36
+Relaxing CNi111OPt36
+Relaxing H2Ni111Pt36
+Relaxing HNi111Pt36
+Relaxing C2H4Ni111O2Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing CH3Ni111OPt36
+Relaxing C3H9Ni111O3Pt36
+Relaxing H4Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C10H16Ni111O12Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C7H14Ni111O8Pt36
+Relaxing C3H16Ni111O3Pt36
+Relaxing C6H10Ni111O6Pt36
+Relaxing H2Ni111Pt36
+Relaxing C17H18Ni111O23Pt36
+Relaxing H5Ni111Pt36
+Relaxing H6Ni111Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C5H24Ni111O7Pt36
+[SafeMoveAdsorbate] caught ValueError: 'H' is not in list
+Relaxing C9H28Ni111O13Pt36
+Relaxing C4H23Ni111O5Pt36
+Relaxing C15H18Ni111O21Pt36
+Relaxing C2H14Ni111O3Pt36
+Relaxing H7Ni111Pt36Relaxing C2H5Ni111O3Pt36
+
+Relaxing C13H29Ni111O18Pt36
+Relaxing C7H15Ni111O7Pt36
+Relaxing C4H23Ni111O5Pt36
+Relaxing C5H24Ni111O7Pt36
+Relaxing HNi111Pt36
+Relaxing C2HNi111O3Pt36
+Relaxing CH8Ni111OPt36
+Relaxing C2H2Ni111O2Pt36
+Relaxing C2H9Ni111O2Pt36
+Relaxing CH8Ni111OPt36
+Relaxing HNi111Pt36
+Relaxing C6H18Ni111O8Pt36
+Relaxing H2Ni111Pt36
+Relaxing C8H16Ni111O13Pt36
+Relaxing C4H7Ni111O5Pt36
+Relaxing H5Ni111Pt36
+Relaxing C4H11Ni111O4Pt36
+Relaxing C3H21Ni111O4Pt36
+Relaxing C3H23Ni111O4Pt36
+Relaxing C3H4Ni111O4Pt36
+Relaxing C3H15Ni111O3Pt36
+Relaxing C2H12Ni111O3Pt36
+Relaxing C5H22Ni111O8Pt36
+Relaxing C7H15Ni111O7Pt36
+
