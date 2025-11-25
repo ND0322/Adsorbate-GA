@@ -60,7 +60,7 @@ for atoms in images:
 sas = ClusterAdsorptionSites(particle, composition_effect=False)
 
 # Instantiate the db
-db_name = os.path.abspath('ridge_Ni110Pt37_ads.db')
+db_name = "/home/nathan/Adsorbate-GA/ridge_Ni110Pt37_ads.db"
 
 db = PrepareDB(db_name, cell=particle.cell, population_size=pop_size)
 
