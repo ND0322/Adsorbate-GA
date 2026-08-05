@@ -352,6 +352,7 @@ CO2, H2
 CuFeCr
 On surface of periodic system or particles 
 
+ssh nathan@imd.newhaven.edu
 ase gui ridge_Ni110Pt37_ads.db
 czMHrca-UELC
 nohup conda run -n venv python3 ~/Adsorbate-GA/testing.py & 
