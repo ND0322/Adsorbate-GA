@@ -67,7 +67,7 @@ def get_silent_mace():
     
     try:
         os.dup2(devnull_fd, 1)
-        calc = mace_mp(model="medium", dispersion=True, default_dtype="float32", device="cpu")
+        calc = mace_mp(model="medium", dispersion=True, default_dtype="float32", device="gpu")
     finally:
         os.dup2(real_stdout_fd, 1)
         os.close(real_stdout_fd)
