@@ -32,15 +32,30 @@ import sys
 
 
 
+class SafeMoveAdsorbate(MoveAdsorbate):
+    def __init__(self, adsorbate_species, adsorption_sites, num_muts=1):
+        super().__init__(
+            adsorbate_species=adsorbate_species,
+            adsorption_sites=adsorption_sites,
+            num_muts=num_muts
+        )
+        self._species = adsorbate_species
+        self._ads_sites = adsorption_sites
 
+    def get_new_individual(self, parents):
+        try:
+            return super().get_new_individual(parents)
+        except ValueError as e:
+            print("[SafeMoveAdsorbate] caught ValueError:", e)
+            return None
 
 BASE_DIR = str(Path(__file__).resolve().parent)
 MACE = None
 chem_pots = {}
 
-def getChemPot(formula):
+def getChemPot(formula, calc):
     mol = molecule(formula)
-    mol.calc = MACE
+    mol.calc = calc
 
     mol.center(10.0)
 
@@ -52,7 +67,7 @@ def get_silent_mace():
     
     try:
         os.dup2(devnull_fd, 1)
-        calc = mace_mp(model="medium", dispersion=True, default_dtype="float64", device="cpu")
+        calc = mace_mp(model="medium", dispersion=True, default_dtype="float32", device="cpu")
     finally:
         os.dup2(real_stdout_fd, 1)
         os.close(real_stdout_fd)
@@ -108,39 +123,9 @@ def relax_an_unrelaxed_candidate(atoms):
     nncomp = atoms.get_chemical_formula(mode='hill')
     print('Relaxing ' + nncomp, flush = True)
 
-    return relax(atoms, single_point=True) # Single point only for testing
+    return relax(atoms, single_point=False) # Single point only for testing
 
-def procreation(x):
 
-    pop.update()
-    # Select an operator and use it
-    op = op_selector.get_operator()
-
-    while True:
-        # Assign rng with a random seed
-        np.random.seed(randint(1, 10000))
-        pop.rng = np.random
-        # Select parents for a new candidate
-        p1, p2 = pop.get_two_candidates()
-        parents = [p1, p2]
-        # Pure or bare nanoparticles are not considered
-        if len(set(p1.numbers)) < 3:
-            continue
-        op = op_selector.get_operator()
-
-        
-        offspring, desc = op.get_new_individual(parents)
-       
-        # An operator could return None if an offspring cannot be formed
-        # by the chosen parents
-        if offspring is not None:
-            break
-    nncomp = offspring.get_chemical_formula(mode='hill')
-    print('Relaxing ' + nncomp, flush = True)
-    if 'data' not in offspring.info:
-        offspring.info['data'] = {'tag': None}
-
-    return relax(offspring, single_point=True) # Single point only for testing
 
 def get_ads(atoms):
     """Returns a list of adsorbate names and corresponding indices."""
@@ -184,7 +169,7 @@ soclist = ([1, 1, 2, 1, 1, 1, 1, 2],
             RandomPermutation(elements=['Cu', 'Fe', 'Cr'], num_muts=5),
             AddAdsorbate(species, adsorption_sites=sas, num_muts=5),
             RemoveAdsorbate(species, adsorption_sites=sas, num_muts=5),
-            MoveAdsorbate(species, adsorption_sites=sas, num_muts=5),
+            SafeMoveAdsorbate(species, adsorption_sites=sas, num_muts=5),
             ReplaceAdsorbate(species, adsorption_sites=sas, num_muts=5),
             SimpleCutSpliceCrossoverWithAdsorbates(species, keep_composition=True,
                                                    adsorption_sites=sas),])
@@ -239,17 +224,51 @@ if __name__ == "__main__":
 
     gen_num = db.get_generation_number()
 
-    for i in range(num_gens):
-        if(cc.converged()):
+    for i in range(gen_num, num_gens):
+        if cc.converged():
             print("Converged")
             break
 
-        print('Creating and evaluating generation {0}'.format(gen_num + i))
+        print("Creating and evaluating generation {0}".format(gen_num))
+
+        unrelaxed_candidates = []
+
+        for _ in range(pop_size):
+            while True:
+                # Assign rng with a random seed
+                np.random.seed(randint(1, 10000))
+                pop.rng = np.random
+                
+                # Select parents for a new candidate
+                p1, p2 = pop.get_two_candidates()
+                parents = [p1, p2]
+                
+                # Pure or bare nanoparticles are not considered
+                if len(set(p1.numbers)) < 3:
+                    continue
+                    
+                op = op_selector.get_operator()
+
+                offspring, desc = op.get_new_individual(parents)
+                
+                # An operator could return None if an offspring cannot be formed
+                # by the chosen parents
+                if offspring is not None:
+                    nncomp = offspring.get_chemical_formula(mode="hill")
+                    print("Generating " + nncomp, flush=True)
+                    unrelaxed_candidates.append(offspring)
+                    break
+
+        for cand in unrelaxed_candidates:
+            if "data" not in cand.info:
+                cand.info["data"] = {"tag": None}
 
         pool = Pool(os.cpu_count(), initializer=init_worker, initargs=(chem_pots,))
-        relaxed_candidates = pool.map(procreation, range(pop_size))
+        relaxed_candidates = pool.map(relax, unrelaxed_candidates)
         pool.close()
         pool.join()
+
+        print("Done relaxing", flush=True)
 
         db.add_more_relaxed_candidates(relaxed_candidates)
         pop.update()

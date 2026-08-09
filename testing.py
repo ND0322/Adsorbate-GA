@@ -55,26 +55,7 @@ import math
 
 
 
-class SafeMoveAdsorbate(MoveAdsorbate):
-    def __init__(self, adsorbate_species, adsorption_sites, num_muts=1):
-        super().__init__(
-            adsorbate_species=adsorbate_species,
-            adsorption_sites=adsorption_sites,
-            num_muts=num_muts
-        )
-        self._species = adsorbate_species
-        self._ads_sites = adsorption_sites
 
-    def get_new_individual(self, parents):
-        try:
-            return super().get_new_individual(parents)
-        except ValueError as e:
-            print("[SafeMoveAdsorbate] caught ValueError:", e)
-            add_op = AddAdsorbate(self._species,
-                                  adsorption_sites=self._ads_sites,
-                                  num_muts=1)
-            offspring, desc = add_op.get_new_individual(parents)
-            return offspring, f"SafeMoveFallback: {desc}"
 
 def get_ads(atoms):
     """Returns a list of adsorbate names and corresponding indices."""
