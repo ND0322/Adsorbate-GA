@@ -23,6 +23,7 @@ f90wrap==0.2.16
 filelock==3.32.2
 fonttools==4.56.0
 fsspec==2026.7.0
+git-filter-repo==2.47.0
 gitdb==4.0.12
 GitPython==3.1.58
 h5py==3.16.0
