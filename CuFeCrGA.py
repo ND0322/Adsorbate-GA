@@ -18,7 +18,7 @@ from ase.ga.convergence import GenerationRepetitionConvergence
 from ase.cluster import Icosahedron
 from ase.optimize import BFGS
 from random import randint
-from multiprocessing import Pool
+from multiprocessing import Pool, set_start_method
 import numpy as np
 import os
 from pathlib import Path
@@ -36,25 +36,7 @@ import sys
 
 BASE_DIR = str(Path(__file__).resolve().parent)
 MACE = None
-
-def init_worker():
-    warnings.filterwarnings("ignore")
-    os.environ["PYTHONWARNINGS"] = "ignore"
-    logging.getLogger("mace").setLevel(logging.ERROR)
-    logging.getLogger("e3nn").setLevel(logging.ERROR)
-
-    global MACE
-    if MACE is None:
-        
-        old_stdout = sys.stdout
-        sys.stdout = open(os.devnull, "w")
-        
-        try:
-            MACE = mace_mp(model="medium", dispersion=True, default_dtype="float64", device="cpu")
-        finally:
-            sys.stdout.close()
-            sys.stdout = old_stdout
-            
+chem_pots = {}
 
 def getChemPot(formula):
     mol = molecule(formula)
@@ -64,9 +46,32 @@ def getChemPot(formula):
 
     return mol.get_potential_energy()
 
-chem_pots = {"H2" : getChemPot("H2"), "CO2" : getChemPot("CO2")}
+def get_silent_mace():
+    real_stdout_fd = os.dup(1)
+    devnull_fd = os.open(os.devnull, os.O_WRONLY)
+    
+    try:
+        os.dup2(devnull_fd, 1)
+        calc = mace_mp(model="medium", dispersion=True, default_dtype="float64", device="cpu")
+    finally:
+        os.dup2(real_stdout_fd, 1)
+        os.close(real_stdout_fd)
+        os.close(devnull_fd)
+        
+    return calc
 
 
+def init_worker(cp):
+    warnings.filterwarnings("ignore")
+    os.environ["PYTHONWARNINGS"] = "ignore"
+    logging.getLogger("mace").setLevel(logging.ERROR)
+    logging.getLogger("e3nn").setLevel(logging.ERROR)
+
+    global MACE, chem_pots
+    chem_pots = cp
+    if MACE is None:
+        MACE = get_silent_mace()
+            
 
 
 # Define the relax function
@@ -101,11 +106,13 @@ def relax_an_unrelaxed_candidate(atoms):
     if 'data' not in atoms.info:
         atoms.info['data'] = {'tag': None}
     nncomp = atoms.get_chemical_formula(mode='hill')
-    print('Relaxing ' + nncomp)
+    print('Relaxing ' + nncomp, flush = True)
 
     return relax(atoms, single_point=True) # Single point only for testing
 
 def procreation(x):
+
+    pop.update()
     # Select an operator and use it
     op = op_selector.get_operator()
 
@@ -129,7 +136,7 @@ def procreation(x):
         if offspring is not None:
             break
     nncomp = offspring.get_chemical_formula(mode='hill')
-    print('Relaxing ' + nncomp)
+    print('Relaxing ' + nncomp, flush = True)
     if 'data' not in offspring.info:
         offspring.info['data'] = {'tag': None}
 
@@ -201,18 +208,32 @@ traj = Trajectory(BASE_DIR + "/atoms.traj", 'w')
 
 
 if __name__ == "__main__":
+    print("Starting worker pool...", flush=True)
+
+    set_start_method("spawn")
+
+    MACE_TMP = get_silent_mace()
+    chem_pots = {
+        "H2": getChemPot("H2", MACE_TMP),
+        "CO2": getChemPot("CO2", MACE_TMP)
+    }
+    del MACE_TMP
+
+    if len(db.get_all_relaxed_candidates()) > 0:
+        pop.update()
 
     
-    pool = Pool(processes = os.cpu_count(), initializer=init_worker())
+    pool = Pool(processes = os.cpu_count(), initializer=init_worker, initargs=(chem_pots,))
 
     cands = db.get_all_unrelaxed_candidates()
 
-    relaxed_candidates = pool.map(relax_an_unrelaxed_candidate, cands)
+    if len(cands) > 0:
+        relaxed_candidates = pool.map(relax_an_unrelaxed_candidate, cands)
+        db.add_more_relaxed_candidates(relaxed_candidates)
+        pop.update()
 
     pool.close()
     pool.join()
-    db.add_more_relaxed_candidates(relaxed_candidates)
-    pop.update()
 
     num_gens = 1000
 
@@ -225,7 +246,7 @@ if __name__ == "__main__":
 
         print('Creating and evaluating generation {0}'.format(gen_num + i))
 
-        pool = Pool(os.cpu_count())
+        pool = Pool(os.cpu_count(), initializer=init_worker, initargs=(chem_pots,))
         relaxed_candidates = pool.map(procreation, range(pop_size))
         pool.close()
         pool.join()
