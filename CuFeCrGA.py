@@ -208,7 +208,7 @@ if __name__ == "__main__":
         pop.update()
 
     
-    pool = Pool(processes = os.cpu_count(), initializer=init_worker, initargs=(chem_pots,))
+    pool = Pool(processes = 2, initializer=init_worker, initargs=(chem_pots,))
 
     cands = db.get_all_unrelaxed_candidates()
 
@@ -263,7 +263,7 @@ if __name__ == "__main__":
             if "data" not in cand.info:
                 cand.info["data"] = {"tag": None}
 
-        pool = Pool(os.cpu_count(), initializer=init_worker, initargs=(chem_pots,))
+        pool = Pool(2, initializer=init_worker, initargs=(chem_pots,))
         relaxed_candidates = pool.map(relax, unrelaxed_candidates)
         pool.close()
         pool.join()

@@ -24,7 +24,7 @@ particle = Icosahedron("Cu", noshells=4)
 particle.center(vacuum=5.)
 
 rog = ROG(particle, elements = ["Cu", "Fe", "Cr"],
-            composition={'Cu' : 0.4, 'Fe' : 0.5, "Cr" : 0.1},
+            composition={'Cu': 0.435, 'Fe': 0.551, 'Cr': 0.014},
             trajectory='starting_generation.traj'
 )
 
