@@ -30,6 +30,7 @@ import logging
 import warnings
 import sys
 import contextlib
+import json
 
 
 
@@ -52,7 +53,8 @@ class SafeMoveAdsorbate(MoveAdsorbate):
 
 BASE_DIR = str(Path(__file__).resolve().parent)
 MACE = None
-chem_pots = {}
+with open(BASE_DIR + "/pots.json", "r") as f:
+    chem_pots = json.load(f)
 
 def getChemPot(formula, calc):
     mol = molecule(formula)
@@ -190,12 +192,6 @@ if __name__ == "__main__":
 
     set_start_method("spawn")
 
-    MACE_TMP = get_silent_mace()
-    chem_pots = {
-        "H2": getChemPot("H2", MACE_TMP),
-        "CO2": getChemPot("CO2", MACE_TMP)
-    }
-    del MACE_TMP
 
     if len(db.get_all_relaxed_candidates()) > 0:
         pop.update()
