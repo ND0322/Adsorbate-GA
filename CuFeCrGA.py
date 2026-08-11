@@ -16,7 +16,7 @@ from ase.ga.utilities import get_nnmat
 from ase.ga.data import DataConnection
 from ase.ga.convergence import GenerationRepetitionConvergence
 from ase.cluster import Icosahedron
-from ase.optimize import BFGS
+from ase.optimize import LBFGS
 from random import randint
 from multiprocessing import Pool, set_start_method
 import numpy as np
@@ -29,6 +29,7 @@ from ase.build import molecule
 import logging
 import warnings
 import sys
+import contextlib
 
 
 
@@ -42,7 +43,7 @@ class SafeMoveAdsorbate(MoveAdsorbate):
         self._species = adsorbate_species
         self._ads_sites = adsorption_sites
 
-    def get_new_individual(self, parents):
+    def get_new_individual(self, parents):  
         try:
             return super().get_new_individual(parents)
         except ValueError as e:
@@ -62,16 +63,8 @@ def getChemPot(formula, calc):
     return mol.get_potential_energy()
 
 def get_silent_mace():
-    real_stdout_fd = os.dup(1)
-    devnull_fd = os.open(os.devnull, os.O_WRONLY)
-    
-    try:
-        os.dup2(devnull_fd, 1)
-        calc = mace_mp(model="medium", dispersion=True, default_dtype="float32", device="gpu")
-    finally:
-        os.dup2(real_stdout_fd, 1)
-        os.close(real_stdout_fd)
-        os.close(devnull_fd)
+    with open(os.devnull, 'w') as f, contextlib.redirect_stdout(f):
+        calc = mace_mp(model="medium", dispersion=True, default_dtype="float64", device="cuda")
         
     return calc
 
@@ -94,8 +87,8 @@ def relax(atoms, single_point=False):
     atoms.center(vacuum=5.)
     atoms.calc = MACE
     if not single_point:
-        opt = BFGS(atoms, logfile=None)
-        opt.run(fmax=0.05)
+        opt = LBFGS(atoms, logfile=None)
+        opt.run(fmax=0.05, steps = 200)
 
     Epot = atoms.get_potential_energy()
     num_H = len([s for s in atoms.symbols if s == 'H'])
@@ -208,7 +201,7 @@ if __name__ == "__main__":
         pop.update()
 
     
-    pool = Pool(processes = 2, initializer=init_worker, initargs=(chem_pots,))
+    pool = Pool(4, initializer=init_worker, initargs=(chem_pots,))
 
     cands = db.get_all_unrelaxed_candidates()
 
@@ -263,7 +256,7 @@ if __name__ == "__main__":
             if "data" not in cand.info:
                 cand.info["data"] = {"tag": None}
 
-        pool = Pool(2, initializer=init_worker, initargs=(chem_pots,))
+        pool = Pool(4, initializer=init_worker, initargs=(chem_pots,))
         relaxed_candidates = pool.map(relax, unrelaxed_candidates)
         pool.close()
         pool.join()
