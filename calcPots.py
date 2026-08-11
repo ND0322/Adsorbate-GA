@@ -1,5 +1,5 @@
 from mace.calculators import mace_mp
-from ase import molecule
+from ase.build import molecule
 import json
 
 def getChemPot(formula, calc):
@@ -12,7 +12,7 @@ def getChemPot(formula, calc):
 
 calc = mace_mp(model="medium", dispersion=True, default_dtype="float64", device="cuda")
 
-pots = {"H2" : getChemPot("H2"), "CO2" : getChemPot("CO2")}
+pots = {"H2" : getChemPot("H2", calc), "CO2" : getChemPot("CO2", calc)}
 s = json.dumps(pots)
 
 with open("pots.json", "w") as f:
