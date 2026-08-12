@@ -32,7 +32,15 @@ import sys
 import contextlib
 import json
 
+_orig_factory = action.adsorbate_molecule
 
+def _patched_molecule(name, *args, **kwargs):
+
+    if str(name).upper() == "HH2":
+        return ase_molecule("H2")
+
+    return _orig_factory(name, *args, **kwargs)
+action.adsorbate_molecule = _patched_molecule
 
 class SafeMoveAdsorbate(MoveAdsorbate):
     def __init__(self, adsorbate_species, adsorption_sites, num_muts=1):
@@ -191,10 +199,6 @@ if __name__ == "__main__":
     print("Starting worker pool...", flush=True)
 
     set_start_method("spawn")
-
-
-    if len(db.get_all_relaxed_candidates()) > 0:
-        pop.update()
 
     
     pool = Pool(4, initializer=init_worker, initargs=(chem_pots,))

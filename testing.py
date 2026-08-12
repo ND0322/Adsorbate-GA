@@ -62,11 +62,14 @@ def get_ads(atoms):
     if 'data' not in atoms.info:
         atoms.info['data'] = {'tag': None}
     if 'adsorbates' in atoms.info['data']:
-        adsorbates = atoms.info['data']['adsorbates']
-    else:
+        return atoms.info['data']['adsorbates']
+    try:
         cac = ClusterAdsorbateCoverage(atoms)
         adsorbates = cac.get_adsorbates()
-
+    except (IndexError, ValueError, AttributeError):
+        adsorbates = []
+    
+    atoms.info['data']['adsorbates'] = adsorbates
     return adsorbates
 
 
