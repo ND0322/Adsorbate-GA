@@ -222,7 +222,7 @@ if __name__ == "__main__":
             print("Converged")
             break
 
-        print("Creating and evaluating generation {0}".format(gen_num))
+        print("Creating and evaluating generation {0}".format(i))
 
         unrelaxed_candidates = []
 
