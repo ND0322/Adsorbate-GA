@@ -31,7 +31,7 @@ rog = ROG(particle, elements = ["Cu", "Fe", "Cr"],
 rog.run(num_gen=pop_size)
 
 
-species = ['H2', 'CO2']
+species = ['H2', 'CO2', "H"]
 
 images = read("starting_generation.traj", index = ":")
 patterns = []

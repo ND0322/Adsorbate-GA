@@ -156,7 +156,7 @@ pop_size = 48
 particle = Icosahedron("Cu", noshells=4)
 particle.center(vacuum=5.)
 
-species = ["H2", "CO2"]
+species = ["H2", "CO2", "H"]
 
 sas = ClusterAdsorptionSites(particle, composition_effect=False)
 

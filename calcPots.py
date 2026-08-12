@@ -12,7 +12,7 @@ def getChemPot(formula, calc):
 
 calc = mace_mp(model="medium", dispersion=True, default_dtype="float64", device="cuda")
 
-pots = {"H2" : getChemPot("H2", calc), "CO2" : getChemPot("CO2", calc)}
+pots = {"H2" : getChemPot("H2", calc), "CO2" : getChemPot("CO2", calc), "H" : getChemPot("H", calc)}
 s = json.dumps(pots)
 
 with open("pots.json", "w") as f:
