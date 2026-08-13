@@ -34,13 +34,6 @@ import json
 
 _orig_factory = action.adsorbate_molecule
 
-def _patched_molecule(name, *args, **kwargs):
-
-    if str(name).upper() == "HH2":
-        return ase_molecule("H2")
-
-    return _orig_factory(name, *args, **kwargs)
-action.adsorbate_molecule = _patched_molecule
 
 class SafeMoveAdsorbate(MoveAdsorbate):
     def __init__(self, adsorbate_species, adsorption_sites, num_muts=1):
@@ -74,7 +67,7 @@ def getChemPot(formula, calc):
 
 def get_silent_mace():
     with open(os.devnull, 'w') as f, contextlib.redirect_stdout(f):
-        calc = mace_mp(model="medium", dispersion=True, default_dtype="float64", device="cuda")
+        calc = mace_mp(model="medium", dispersion=True, default_dtype="float64", device="cpu")
         
     return calc
 
@@ -138,8 +131,8 @@ def get_ads(atoms):
     if 'adsorbates' in atoms.info['data']:
         return atoms.info['data']['adsorbates']
     try:
-        cac = ClusterAdsorbateCoverage(atoms, dmax = 1.5)
-        l = cac.get_adsorbates()
+        cac = ClusterAdsorbateCoverage(atoms)
+        print(cac.get_adsorbates())
         return cac.get_adsorbates()
     except Exception as e:
         num_C = sum(1 for s in atoms.symbols if s == 'C')
@@ -160,7 +153,7 @@ pop_size = 48
 particle = Icosahedron("Cu", noshells=4)
 particle.center(vacuum=5.)
 
-species = ["H2", "CO2", "H"]
+species = ["H2", "CO2"]
 
 sas = ClusterAdsorptionSites(particle, composition_effect=False)
 
@@ -205,7 +198,7 @@ if __name__ == "__main__":
     set_start_method("spawn")
 
     
-    pool = Pool(4, initializer=init_worker, initargs=(chem_pots,))
+    pool = Pool(os.cpu_count(), initializer=init_worker, initargs=(chem_pots,))
 
     cands = db.get_all_unrelaxed_candidates()
 
@@ -260,7 +253,7 @@ if __name__ == "__main__":
             if "data" not in cand.info:
                 cand.info["data"] = {"tag": None}
 
-        pool = Pool(4, initializer=init_worker, initargs=(chem_pots,))
+        pool = Pool(os.cpu_count(), initializer=init_worker, initargs=(chem_pots,))
         relaxed_candidates = pool.map(relax, unrelaxed_candidates)
         pool.close()
         pool.join()
