@@ -1,6 +1,7 @@
 from mace.calculators import mace_mp
 from ase.build import molecule
 import json
+import torch
 
 def getChemPot(formula, calc):
     mol = molecule(formula)
@@ -10,7 +11,7 @@ def getChemPot(formula, calc):
 
     return mol.get_potential_energy()
 
-calc = mace_mp(model="medium", dispersion=True, default_dtype="float64", device="cuda")
+calc = mace_mp(model="medium", dispersion=True, default_dtype="float64", device="cuda" if torch.cuda.is_available() else "cpu")
 
 pots = {"H2" : getChemPot("H2", calc), "CO2" : getChemPot("CO2", calc), "H" : getChemPot("H", calc)}
 s = json.dumps(pots)
