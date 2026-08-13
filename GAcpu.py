@@ -86,7 +86,7 @@ def init_worker(cp):
 
 
 # Define the relax function
-def relax(atoms, single_point=False):
+def relax(atoms, single_point=True):
     atoms.center(vacuum=5.)
     atoms.calc = MACE
     if not single_point:
@@ -119,7 +119,7 @@ def relax_an_unrelaxed_candidate(atoms):
     nncomp = atoms.get_chemical_formula(mode='hill')
     print('Relaxing ' + nncomp, flush = True)
 
-    return relax(atoms, single_point=False) # Single point only for testing
+    return relax(atoms, single_point=True) # Single point only for testing
 
 
 
