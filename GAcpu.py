@@ -32,6 +32,23 @@ import sys
 import contextlib
 import json
 
+from ase import Atoms
+from ase.build import molecule as ase_molecule
+
+_orig_factory = action.adsorbate_molecule
+
+def _patched_molecule(name, *args, **kwargs):
+    name_str = str(name).upper()
+
+    if name_str == "HH2":
+        h2 = ase_molecule("H2")
+        h_extra = Atoms("H", positions=[[0, 1.8, 1.0]])
+        return h2 + h_extra
+
+    return _orig_factory(name, *args, **kwargs)
+
+action.adsorbate_molecule = _patched_molecule
+
 _orig_factory = action.adsorbate_molecule
 
 
@@ -93,6 +110,21 @@ def relax(atoms, single_point=True):
         opt = LBFGS(atoms, logfile=None)
         opt.run(fmax=0.05, steps = 200)
 
+    pos = atoms.positions
+    symbols = np.array(atoms.get_chemical_symbols())
+    metal_pos = pos[np.isin(symbols, ['Cu', 'Fe', 'Cr'])]
+    ads_pos = pos[~np.isin(symbols, ['Cu', 'Fe', 'Cr'])]
+
+    if len(ads_pos) > 0 and len(metal_pos) > 0:
+        from scipy.spatial.distance import cdist
+        min_dists = np.min(cdist(ads_pos, metal_pos), axis=1)
+        if np.any(min_dists > 3.5):  # Desorbed adsorbate detected
+            atoms.info['key_value_pairs']['raw_score'] = -999999.0
+            atoms.info['key_value_pairs']['potential_energy'] = 999999.0
+            atoms.info['data'] = {'tag': None, 'nnmat': get_nnmat(atoms)}
+            atoms.calc = None
+            return atoms
+
     Epot = atoms.get_potential_energy()
     num_H = len([s for s in atoms.symbols if s == 'H'])
     num_C = len([s for s in atoms.symbols if s == 'C'])
@@ -132,7 +164,6 @@ def get_ads(atoms):
         return atoms.info['data']['adsorbates']
     try:
         cac = ClusterAdsorbateCoverage(atoms)
-        print(cac.get_adsorbates())
         return cac.get_adsorbates()
     except Exception as e:
         num_C = sum(1 for s in atoms.symbols if s == 'C')
@@ -264,6 +295,5 @@ if __name__ == "__main__":
         pop.update()
 
     
-
 
 
