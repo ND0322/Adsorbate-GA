@@ -49,7 +49,6 @@ def _patched_molecule(name, *args, **kwargs):
 
 action.adsorbate_molecule = _patched_molecule
 
-_orig_factory = action.adsorbate_molecule
 
 
 class SafeMoveAdsorbate(MoveAdsorbate):
@@ -67,7 +66,7 @@ class SafeMoveAdsorbate(MoveAdsorbate):
             return super().get_new_individual(parents)
         except ValueError as e:
             print("[SafeMoveAdsorbate] caught ValueError:", e)
-            return None
+            return None, None
 
 BASE_DIR = str(Path(__file__).resolve().parent)
 MACE = None
@@ -156,20 +155,22 @@ def relax_an_unrelaxed_candidate(atoms):
 
 
 def get_ads(atoms):
-
     if 'data' not in atoms.info:
         atoms.info['data'] = {'tag': None}
         
     if 'adsorbates' in atoms.info['data']:
         return atoms.info['data']['adsorbates']
+        
     try:
         cac = ClusterAdsorbateCoverage(atoms)
-        return cac.get_adsorbates()
-    except Exception as e:
+        adsorbates = cac.get_adsorbates()
+    except Exception:
         num_C = sum(1 for s in atoms.symbols if s == 'C')
         num_H = sum(1 for s in atoms.symbols if s == 'H')
-        return ['CO2'] * num_C + ['H'] * num_H
+        adsorbates = ['CO2'] * num_C + ['H'] * num_H
 
+    atoms.info['data']['adsorbates'] = adsorbates
+    return adsorbates
 
 
 def vf(atoms):
