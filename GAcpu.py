@@ -24,6 +24,7 @@ import os
 from pathlib import Path
 import acat.build.action as action
 from ase.io import Trajectory
+from ase import Atoms
 from mace.calculators import mace_mp
 from ase.build import molecule
 import logging
@@ -32,8 +33,6 @@ import sys
 import contextlib
 import json
 
-from ase import Atoms
-from ase.build import molecule as ase_molecule
 
 _orig_factory = action.adsorbate_molecule
 
@@ -117,7 +116,7 @@ def relax(atoms, single_point=True):
     if len(ads_pos) > 0 and len(metal_pos) > 0:
         from scipy.spatial.distance import cdist
         min_dists = np.min(cdist(ads_pos, metal_pos), axis=1)
-        if np.any(min_dists > 3.5):  # Desorbed adsorbate detected
+        if np.any(min_dists > 3.5):
             atoms.info['key_value_pairs']['raw_score'] = -999999.0
             atoms.info['key_value_pairs']['potential_energy'] = 999999.0
             atoms.info['data'] = {'tag': None, 'nnmat': get_nnmat(atoms)}

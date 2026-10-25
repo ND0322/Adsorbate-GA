@@ -32,32 +32,6 @@ import sys
 import contextlib
 import json
 
-_orig_factory = action.adsorbate_molecule
-
-def _patched_molecule(name, *args, **kwargs):
-
-    if str(name).upper() == "HH2":
-        return ase_molecule("H2")
-
-    return _orig_factory(name, *args, **kwargs)
-action.adsorbate_molecule = _patched_molecule
-
-class SafeMoveAdsorbate(MoveAdsorbate):
-    def __init__(self, adsorbate_species, adsorption_sites, num_muts=1):
-        super().__init__(
-            adsorbate_species=adsorbate_species,
-            adsorption_sites=adsorption_sites,
-            num_muts=num_muts
-        )
-        self._species = adsorbate_species
-        self._ads_sites = adsorption_sites
-
-    def get_new_individual(self, parents):  
-        try:
-            return super().get_new_individual(parents)
-        except ValueError as e:
-            print("[SafeMoveAdsorbate] caught ValueError:", e)
-            return None
 
 BASE_DIR = str(Path(__file__).resolve().parent)
 MACE = None
@@ -160,7 +134,7 @@ pop_size = 48
 particle = Icosahedron("Cu", noshells=4)
 particle.center(vacuum=5.)
 
-species = ["H2", "CO2", "H"]
+species = ["CO2", "H"]
 
 sas = ClusterAdsorptionSites(particle, composition_effect=False)
 
@@ -176,7 +150,6 @@ soclist = ([1, 1, 2, 1, 1, 1, 1, 2],
             RandomPermutation(elements=['Cu', 'Fe', 'Cr'], num_muts=5),
             AddAdsorbate(species, adsorption_sites=sas, num_muts=5),
             RemoveAdsorbate(species, adsorption_sites=sas, num_muts=5),
-            SafeMoveAdsorbate(species, adsorption_sites=sas, num_muts=5),
             ReplaceAdsorbate(species, adsorption_sites=sas, num_muts=5),
             SimpleCutSpliceCrossoverWithAdsorbates(species, keep_composition=True,
                                                    adsorption_sites=sas),])
@@ -271,6 +244,7 @@ if __name__ == "__main__":
         pop.update()
 
     
-
+#searching most stable surface
+#
 
 
