@@ -31,6 +31,7 @@ import warnings
 import sys
 import contextlib
 import json
+import time
 
 
 BASE_DIR = str(Path(__file__).resolve().parent)
@@ -107,9 +108,6 @@ pop_size = 48
 particle = Icosahedron("Cu", noshells=4)
 particle.center(vacuum=5.)
 
-species = ["CO2", "H"]
-
-sas = ClusterAdsorptionSites(particle, composition_effect=False)
 
 db_name = BASE_DIR+"/clusters.db"
 
@@ -150,65 +148,66 @@ if __name__ == "__main__":
     
     pool = Pool(4, initializer=init_worker)
 
-    cands = db.get_all_unrelaxed_candidates()
+    try:
 
-    if len(cands) > 0:
-        relaxed_candidates = pool.map(relax_an_unrelaxed_candidate, cands)
-        db.add_more_relaxed_candidates(relaxed_candidates)
-        pop.update()
+        cands = db.get_all_unrelaxed_candidates()
 
-    pool.close()
-    pool.join()
+        if len(cands) > 0:
+            relaxed_candidates = pool.map(relax_an_unrelaxed_candidate, cands)
+            db.add_more_relaxed_candidates(relaxed_candidates)
+            pop.update()
 
-    num_gens = 1000
+        num_gens = 1000
 
-    gen_num = db.get_generation_number()
+        gen_num = db.get_generation_number()
 
-    for i in range(gen_num, num_gens):
-        if cc.converged():
-            print("Converged")
-            break
+        for i in range(gen_num, num_gens):
+            if cc.converged():
+                print("Converged")
+                break
 
-        print("Creating and evaluating generation {0}".format(i))
+            print("Creating and evaluating generation {0}".format(i))
+            t0 = time.perf_counter()
 
-        unrelaxed_candidates = []
+            unrelaxed_candidates = []
 
-        for _ in range(pop_size):
-            while True:
-                # Assign rng with a random seed
-                np.random.seed(randint(1, 10000))
-                pop.rng = np.random
-                
-                # Select parents for a new candidate
-                p1, p2 = pop.get_two_candidates()
-                parents = [p1, p2]
+            for _ in range(pop_size):
+                while True:
+                    # Assign rng with a random seed
+                    np.random.seed(randint(1, 10000))
+                    pop.rng = np.random
                     
-                op = op_selector.get_operator()
+                    # Select parents for a new candidate
+                    p1, p2 = pop.get_two_candidates()
+                    parents = [p1, p2]
+                        
+                    op = op_selector.get_operator()
 
-                offspring, desc = op.get_new_individual(parents)
-                
-                # An operator could return None if an offspring cannot be formed
-                # by the chosen parents
-                if offspring is not None:
-                    nncomp = offspring.get_chemical_formula(mode="hill")
-                    print("Generating " + nncomp, flush=True)
-                    unrelaxed_candidates.append(offspring)
-                    break
+                    offspring, desc = op.get_new_individual(parents)
+                    
+                    # An operator could return None if an offspring cannot be formed
+                    # by the chosen parents
+                    if offspring is not None:
+                        nncomp = offspring.get_chemical_formula(mode="hill")
+                        print("Generating " + nncomp, flush=True)
+                        unrelaxed_candidates.append(offspring)
+                        break
 
-        for cand in unrelaxed_candidates:
-            if "data" not in cand.info:
-                cand.info["data"] = {"tag": None}
+            for cand in unrelaxed_candidates:
+                if "data" not in cand.info:
+                    cand.info["data"] = {"tag": None}
+            relaxed_candidates = pool.map(relax, unrelaxed_candidates)
 
-        pool = Pool(4, initializer=init_worker)
-        relaxed_candidates = pool.map(relax, unrelaxed_candidates)
+
+
+            db.add_more_relaxed_candidates(relaxed_candidates)
+            pop.update()
+
+            print(f"Generation {i} completed in " f"{time.perf_counter() - t0:.1f} seconds", flush=True)
+    finally:
         pool.close()
         pool.join()
 
-
-        db.add_more_relaxed_candidates(relaxed_candidates)
-        pop.update()
-
-        print(['-'.join(p.get_chemical_symbols()) for p in pop.pop])
 
     
 #searching most stable surface
