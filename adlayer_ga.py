@@ -40,7 +40,7 @@ MACE = None
 
 def get_silent_mace():
     with open(os.devnull, 'w') as f, contextlib.redirect_stdout(f):
-        calc = mace_mp(model="medium", dispersion=True, default_dtype="float64", device="cuda")
+        calc = mace_mp(model="medium", dispersion=True, default_dtype="float32", device="cuda")
         
     return calc
 
@@ -63,7 +63,7 @@ def relax(atoms, single_point=False):
     atoms.calc = MACE
     if not single_point:
         opt = LBFGS(atoms, logfile=None)
-        opt.run(fmax=0.05, steps = 200)
+        opt.run(fmax=0.1, steps = 200)
 
     Epot = atoms.get_potential_energy()
 
